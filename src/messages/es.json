@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "title": "NexSystems - Paginas Web que Generan Leads | Costa Rica",
+    "description": "Disenamos paginas web estrategicas para pymes en Costa Rica. Orientadas a conversion, con analytics y mobile-first. Auditoria express gratis."
+  },
+  "nav": {
+    "services": "Servicios",
+    "about": "Nosotros",
+    "process": "Proceso",
+    "audit": "Auditoria Gratis",
+    "cta": "Hablemos",
+    "menu": "Menu"
+  },
+  "hero": {
+    "eyebrow": "Desarrollo Web Estrategico - Costa Rica",
+    "h1_line1": "Tu web deberia generar leads",
+    "h1_em": "mientras dormis.",
+    "sub": "Disenamos paginas web para pymes en Costa Rica orientadas a conversion, con analytics, CTA claros y optimizadas para que cada visita cuente.",
+    "cta_wa": "WhatsApp directo",
+    "cta_audit": "Auditoria gratis",
+    "trust_1": "Sin contrato de largo plazo - proyecto a proyecto",
+    "trust_2": "Google Analytics incluido desde el dia uno",
+    "trust_3": "Entrega en 2-3 semanas",
+    "metric_1": "Clics WA",
+    "metric_2": "Leads",
+    "metric_3": "Formularios",
+    "metric_4": "Tasa conversion",
+    "organic": "Trafico organico"
+  },
+  "stats": {
+    "a": "segundos para entender que haces",
+    "b": "de pymes pierden leads por mala UX",
+    "c": "mas conversion con CTA claros",
+    "d": "plantillas vendidas como estrategia"
+  },
+  "problem": {
+    "title": "Tener web no alcanza.",
+    "subtitle": "Si no guia al usuario a una accion concreta, tu sitio solo consume presupuesto.",
+    "cards": [
+      {
+        "title": "Mensaje confuso",
+        "desc": "No queda claro en 3 segundos por que deberian contactarte."
+      },
+      {
+        "title": "Sin CTA real",
+        "desc": "La gente entra, mira y se va porque no hay siguiente paso obvio."
+      },
+      {
+        "title": "Sin medicion",
+        "desc": "No sabes cuantas visitas se convierten en oportunidades."
+      },
+      {
+        "title": "Mobile pobre",
+        "desc": "La mayoria del trafico viene de celular y la experiencia falla."
+      },
+      {
+        "title": "Carga lenta",
+        "desc": "Cada segundo extra de carga reduce conversion y confianza."
+      }
+    ]
+  },
+  "services": {
+    "title": "Servicios enfocados en resultados",
+    "popular": "Mas popular",
+    "from": "desde",
+    "items": [
+      {
+        "id": "01",
+        "name": "Auditoria Express",
+        "desc": "Diagnostico rapido de tu sitio actual con prioridades accionables.",
+        "price": "$150 USD",
+        "features": ["Revision UX + conversion", "Checklist SEO tecnico", "Plan de mejora de 7 dias"]
+      },
+      {
+        "id": "02",
+        "name": "Web Estrategica",
+        "desc": "Sitio corporativo orientado a leads para pymes en crecimiento.",
+        "price": "$800 USD",
+        "features": ["Arquitectura y copy persuasivo", "Diseno mobile-first", "Integracion de CTA a WhatsApp y formulario"]
+      },
+      {
+        "id": "03",
+        "name": "Web + Analytics Completo",
+        "desc": "Implementacion integral con trazabilidad de embudo comercial.",
+        "price": "$1,200 USD",
+        "features": ["Dashboard de metricas clave", "Eventos GA4 y conversiones", "Acompanamiento de optimizacion inicial"]
+      }
+    ]
+  },
+  "why": {
+    "title": "Por que NexSystems",
+    "copy": "Estamos en etapa de lanzamiento, pero no improvisamos: aplicamos estandares tecnicos, enfoque comercial y ejecucion directa para el mercado costarricense.",
+    "cards": [
+      {"title": "Atencion directa", "desc": "Hablas con quien diseña y construye."},
+      {"title": "Enfoque local", "desc": "Mensajes adaptados a pymes de Costa Rica."},
+      {"title": "Tecnologia moderna", "desc": "Next.js, performance y SEO tecnico desde base."},
+      {"title": "Decision por datos", "desc": "Cada mejora se prioriza por impacto en conversion."}
+    ]
+  },
+  "process": {
+    "title": "Proceso claro en 4 pasos",
+    "steps": [
+      {"title": "Discovery", "desc": "Objetivo comercial, publico y propuesta de valor."},
+      {"title": "Arquitectura", "desc": "Estructura, copy y CTA orientados a conversion."},
+      {"title": "Produccion", "desc": "Diseno y desarrollo con foco mobile-first."},
+      {"title": "Lanzamiento", "desc": "Tracking GA4, ajustes finales y handoff."}
+    ]
+  },
+  "lead": {
+    "title": "Auditoria express gratuita",
+    "subtitle": "Recibi un diagnostico inicial de tu sitio y 3 mejoras priorizadas para captar mas leads.",
+    "benefits": ["Respuesta en menos de 24 horas habiles", "Checklist de conversion accionable", "Sin compromiso comercial"],
+    "name": "Nombre",
+    "email": "Email",
+    "url": "URL de tu web actual",
+    "submit": "Solicitar auditoria",
+    "sending": "Enviando...",
+    "success": "Listo. Recibimos tu solicitud y te escribimos pronto.",
+    "error": "No pudimos enviar el formulario. Intentalo de nuevo."
+  },
+  "ctaFinal": {
+    "title": "Tu siguiente cliente puede llegar por tu web.",
+    "wa": "WhatsApp",
+    "audit": "Auditoria gratis"
+  },
+  "footer": {
+    "desc": "NexSystems diseña experiencias web orientadas a leads para pymes en Costa Rica.",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "legal": "Todos los derechos reservados.",
+    "privacy": "Privacidad",
+    "terms": "Terminos"
+  },
+  "validation": {
+    "name_min": "El nombre debe tener al menos 2 caracteres.",
+    "email_invalid": "Ingresa un email valido.",
+    "url_invalid": "Ingresa una URL valida (incluye https://)."
+  }
+}

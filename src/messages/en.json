@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "title": "NexSystems - Lead-Generating Websites | Costa Rica",
+    "description": "We design strategic websites for small businesses in Costa Rica. Conversion-focused, analytics-ready, mobile-first. Free express audit."
+  },
+  "nav": {
+    "services": "Services",
+    "about": "About",
+    "process": "Process",
+    "audit": "Free Audit",
+    "cta": "Let's Talk",
+    "menu": "Menu"
+  },
+  "hero": {
+    "eyebrow": "Strategic Web Development - Costa Rica",
+    "h1_line1": "Your website should generate leads",
+    "h1_em": "while you sleep.",
+    "sub": "We design conversion-focused websites for small businesses in Costa Rica, with analytics, clear CTAs, and pages built so every visit matters.",
+    "cta_wa": "Direct WhatsApp",
+    "cta_audit": "Free audit",
+    "trust_1": "No long-term contracts - project by project",
+    "trust_2": "Google Analytics included from day one",
+    "trust_3": "Delivery in 2-3 weeks",
+    "metric_1": "WA clicks",
+    "metric_2": "Leads",
+    "metric_3": "Forms",
+    "metric_4": "Conversion rate",
+    "organic": "Organic traffic"
+  },
+  "stats": {
+    "a": "seconds to understand what you do",
+    "b": "of SMBs lose leads due to poor UX",
+    "c": "more conversions with clear CTAs",
+    "d": "generic templates sold as strategy"
+  },
+  "problem": {
+    "title": "Having a website is not enough.",
+    "subtitle": "If it does not guide users to clear action, your site just burns budget.",
+    "cards": [
+      {
+        "title": "Unclear message",
+        "desc": "People cannot understand your value in the first 3 seconds."
+      },
+      {
+        "title": "No real CTA",
+        "desc": "Visitors leave because there is no obvious next step."
+      },
+      {
+        "title": "No tracking",
+        "desc": "You cannot measure how visits become opportunities."
+      },
+      {
+        "title": "Poor mobile UX",
+        "desc": "Most traffic is mobile and the experience underperforms."
+      },
+      {
+        "title": "Slow loading",
+        "desc": "Every extra second reduces trust and conversion."
+      }
+    ]
+  },
+  "services": {
+    "title": "Services built for outcomes",
+    "popular": "Most popular",
+    "from": "from",
+    "items": [
+      {
+        "id": "01",
+        "name": "Express Audit",
+        "desc": "Fast diagnosis of your current site with actionable priorities.",
+        "price": "$150 USD",
+        "features": ["UX + conversion review", "Technical SEO checklist", "7-day improvement roadmap"]
+      },
+      {
+        "id": "02",
+        "name": "Strategic Website",
+        "desc": "Lead-focused corporate website for growing SMBs.",
+        "price": "$800 USD",
+        "features": ["Information architecture + persuasive copy", "Mobile-first design", "WhatsApp and form CTA integration"]
+      },
+      {
+        "id": "03",
+        "name": "Website + Full Analytics",
+        "desc": "End-to-end implementation with funnel visibility.",
+        "price": "$1,200 USD",
+        "features": ["Key metrics dashboard", "GA4 events and conversions", "Initial optimization support"]
+      }
+    ]
+  },
+  "why": {
+    "title": "Why NexSystems",
+    "copy": "We are in launch stage, but not guessing: we apply strong technical standards, business-driven strategy, and direct execution for Costa Rican SMBs.",
+    "cards": [
+      {"title": "Direct collaboration", "desc": "You talk to the person designing and building."},
+      {"title": "Local market focus", "desc": "Messaging tailored to Costa Rican SMB audiences."},
+      {"title": "Modern stack", "desc": "Next.js, performance, and technical SEO by default."},
+      {"title": "Data-driven decisions", "desc": "Improvements are prioritized by conversion impact."}
+    ]
+  },
+  "process": {
+    "title": "Clear 4-step process",
+    "steps": [
+      {"title": "Discovery", "desc": "Business goals, audience, and value proposition."},
+      {"title": "Architecture", "desc": "Structure, copy, and CTAs focused on conversion."},
+      {"title": "Production", "desc": "Design and development with mobile-first mindset."},
+      {"title": "Launch", "desc": "GA4 tracking, final adjustments, and handoff."}
+    ]
+  },
+  "lead": {
+    "title": "Free express audit",
+    "subtitle": "Get an initial diagnosis of your website plus 3 prioritized improvements to capture more leads.",
+    "benefits": ["Reply within 24 business hours", "Actionable conversion checklist", "No commercial commitment"],
+    "name": "Name",
+    "email": "Email",
+    "url": "Current website URL",
+    "submit": "Request audit",
+    "sending": "Sending...",
+    "success": "Done. We received your request and will contact you soon.",
+    "error": "We could not submit the form. Please try again."
+  },
+  "ctaFinal": {
+    "title": "Your next client can come through your website.",
+    "wa": "WhatsApp",
+    "audit": "Free audit"
+  },
+  "footer": {
+    "desc": "NexSystems designs lead-focused web experiences for small businesses in Costa Rica.",
+    "services": "Services",
+    "contact": "Contact",
+    "legal": "All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "validation": {
+    "name_min": "Name must have at least 2 characters.",
+    "email_invalid": "Please enter a valid email.",
+    "url_invalid": "Please enter a valid URL (include https://)."
+  }
+}

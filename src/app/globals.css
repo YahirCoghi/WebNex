@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy-950: #060a14;
+  --navy-900: #0a0f1e;
+  --navy-800: #0f1729;
+  --navy-700: #162038;
+  --navy-600: #1e2d4f;
+  --blue: #1b3a8c;
+  --blue-mid: #2854c5;
+  --accent: #3b82f6;
+  --silver: #8a9ab8;
+  --silver-light: #b8c4d8;
+  --white: #eef2fa;
+  --green: #34d399;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-manrope), sans-serif;
+  background: var(--navy-900);
+  color: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: -0.015em;
+}
+
+.font-emphasis {
+  font-family: var(--font-playfair), serif;
+  font-style: italic;
+}
+
+.section-shell {
+  position: relative;
+  overflow: clip;
+}
+
+.hero-surface {
+  background-color: var(--navy-950);
+  background-image:
+    radial-gradient(circle at 85% 12%, rgba(59, 130, 246, 0.26) 0, rgba(59, 130, 246, 0) 42%),
+    linear-gradient(rgba(59, 130, 246, 0.03) 1px, transparent 1px),
+    linear-gradient(to right, rgba(59, 130, 246, 0.03) 1px, transparent 1px),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220' viewBox='0 0 220 220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.84' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='220' height='220' filter='url(%23n)' opacity='0.06'/%3E%3C/svg%3E");
+  background-size: auto, 64px 64px, 64px 64px, 220px 220px;
+}
+
+.anchor-offset {
+  scroll-margin-top: 96px;
+}
+
+@layer utilities {
+  .text-silver {
+    color: var(--silver);
+  }
+
+  .text-silver-light {
+    color: var(--silver-light);
+  }
+
+  .bg-navy-950 {
+    background-color: var(--navy-950);
+  }
+
+  .bg-navy-900 {
+    background-color: var(--navy-900);
+  }
+
+  .bg-navy-800 {
+    background-color: var(--navy-800);
+  }
+
+  .bg-navy-700 {
+    background-color: var(--navy-700);
+  }
+
+  .bg-navy-600 {
+    background-color: var(--navy-600);
+  }
+
+  .bg-blue-mid {
+    background-color: var(--blue-mid);
+  }
+
+  .border-accent {
+    border-color: var(--accent);
+  }
+
+  .shadow-soft {
+    box-shadow: 0 10px 45px rgba(4, 8, 20, 0.42);
+  }
+}
