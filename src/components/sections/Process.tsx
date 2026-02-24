@@ -8,7 +8,7 @@ export function Process() {
   const steps = t.raw("steps") as Array<{title: string; desc: string}>;
 
   return (
-    <section id="process" className="anchor-offset bg-navy-800 py-20">
+    <section id="process" className="anchor-offset bg-neutral-900 py-20">
       <div className="mx-auto w-full max-w-6xl px-4 sm:px-6">
         <h2 className="text-3xl font-extrabold text-brand-white sm:text-4xl">{t("title")}</h2>
 
@@ -21,11 +21,11 @@ export function Process() {
               initial={{opacity: 0, y: 24}}
               viewport={{once: true}}
               transition={{delay: idx * 0.08}}
-              className="relative rounded-xl border border-white/10 bg-navy-700/75 p-5"
+              className="relative rounded-xl border border-white/10 bg-neutral-950/75 p-5"
             >
               <motion.div
-                whileHover={{boxShadow: "0 0 24px rgba(59,130,246,.5)"}}
-                className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-full border border-brand-accent/50 bg-navy-900 text-xl font-bold text-brand-white"
+                whileHover={{boxShadow: "0 0 24px rgba(255,255,255,.24)"}}
+                className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-full border border-white/30 bg-black/40 text-xl font-bold text-brand-white"
               >
                 {idx + 1}
               </motion.div>

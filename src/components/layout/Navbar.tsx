@@ -43,8 +43,10 @@ export function Navbar() {
 
   return (
     <nav
-      className={`fixed inset-x-0 top-0 z-40 border-b border-white/10 bg-navy-900/88 backdrop-blur-[20px] transition-shadow duration-300 ${
-        scrolled ? "shadow-nav" : ""
+      className={`fixed inset-x-0 top-0 z-40 border-b transition-all duration-300 ${
+        scrolled
+          ? "border-white/15 bg-black/80 shadow-nav backdrop-blur-[18px]"
+          : "border-transparent bg-transparent"
       }`}
     >
       <div className="mx-auto flex h-20 w-full max-w-6xl items-center justify-between px-4 sm:px-6">
@@ -64,7 +66,7 @@ export function Navbar() {
             <Link
               key={section.key}
               href={`${homePath}${section.href}`}
-              className="text-sm text-brand-light transition hover:text-brand-white"
+              className="text-[11px] font-medium uppercase tracking-[0.24em] text-white/80 transition hover:text-white"
             >
               {t(section.key)}
             </Link>
@@ -72,7 +74,10 @@ export function Navbar() {
         </div>
 
         <div className="hidden items-center gap-3 lg:flex">
-          <Link href={localePath} className="rounded-md border border-brand-accent/35 px-3 py-1.5 text-sm text-brand-white">
+          <Link
+            href={localePath}
+            className="rounded-md border border-white/25 px-3 py-1.5 text-[11px] uppercase tracking-[0.18em] text-brand-white transition hover:border-white/55"
+          >
             {locale.toUpperCase()} / {nextLocale.toUpperCase()}
           </Link>
           <Button href={`https://wa.me/${waNumber}`}>{t("cta")} -&gt;</Button>
@@ -80,7 +85,7 @@ export function Navbar() {
 
         <button
           type="button"
-          className="inline-flex items-center rounded-md border border-white/20 px-3 py-2 text-sm lg:hidden"
+          className="inline-flex items-center rounded-md border border-white/25 bg-black/30 px-3 py-2 text-sm backdrop-blur lg:hidden"
           onClick={() => setOpen((v) => !v)}
           aria-label={t("menu")}
         >
@@ -89,19 +94,19 @@ export function Navbar() {
       </div>
 
       {open && (
-        <div className="border-t border-white/10 bg-navy-800 p-4 lg:hidden">
+        <div className="border-t border-white/10 bg-black/90 p-4 backdrop-blur lg:hidden">
           <div className="flex flex-col gap-3">
             {sections.map((section) => (
               <Link
                 key={section.key}
                 href={`${homePath}${section.href}`}
-                className="text-brand-light"
+                className="text-[11px] uppercase tracking-[0.2em] text-white/80"
                 onClick={() => setOpen(false)}
               >
                 {t(section.key)}
               </Link>
             ))}
-            <Link href={localePath} className="text-brand-white" onClick={() => setOpen(false)}>
+            <Link href={localePath} className="text-[11px] uppercase tracking-[0.2em] text-white" onClick={() => setOpen(false)}>
               {locale.toUpperCase()} / {nextLocale.toUpperCase()}
             </Link>
             <Button href={`https://wa.me/${waNumber}`} className="w-full" onClick={() => setOpen(false)}>

@@ -15,13 +15,13 @@ type Props = {
 
 const metadataByLocale: Record<AppLocale, Metadata> = {
   es: {
-    title: "NexSystems - Paginas Web que Generan Leads | Costa Rica",
+    title: "NexSystems - Páginas Web que Generan Leads | Costa Rica",
     description:
-      "Disenamos paginas web estrategicas para pymes en Costa Rica. Orientadas a conversion, con analytics y mobile-first. Auditoria express gratis.",
+      "Diseñamos páginas web estratégicas para pymes en Costa Rica. Orientadas a conversión, con analytics y mobile-first. Auditoría express gratis.",
     openGraph: {
-      title: "NexSystems - Paginas Web que Generan Leads",
+      title: "NexSystems - Páginas Web que Generan Leads",
       description:
-        "Disenamos paginas web estrategicas para pymes en Costa Rica. Orientadas a conversion, con analytics y mobile-first.",
+        "Diseñamos páginas web estratégicas para pymes en Costa Rica. Orientadas a conversión, con analytics y mobile-first.",
       url: "https://nexsystems.cr",
       siteName: "NexSystems",
       locale: "es_CR",
@@ -84,6 +84,7 @@ export default async function LocaleLayout({children, params}: Props) {
   };
 
   const gaId = process.env.NEXT_PUBLIC_GA4_ID;
+  const hasValidGaId = Boolean(gaId && /^G-[A-Z0-9]+$/i.test(gaId) && !gaId.includes("XXXXXXXX"));
 
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
@@ -91,7 +92,7 @@ export default async function LocaleLayout({children, params}: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{__html: JSON.stringify(jsonLd)}}
       />
-      {gaId ? <GoogleAnalytics gaId={gaId} /> : null}
+      {hasValidGaId ? <GoogleAnalytics gaId={gaId as string} /> : null}
       <div className="bg-navy-900 text-brand-white">
         <Navbar />
         <main>{children}</main>

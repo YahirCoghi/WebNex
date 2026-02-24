@@ -12,15 +12,15 @@ export function DashboardMock() {
     <motion.div
       animate={{y: [0, -7, 0]}}
       transition={{duration: 6, repeat: Infinity, ease: "easeInOut"}}
-      className="will-change-transform rounded-2xl border border-brand-accent/20 bg-navy-700/90 p-5 shadow-soft"
+      className="will-change-transform rounded-2xl border border-white/15 bg-black/55 p-5 shadow-soft backdrop-blur"
     >
       <div className="mb-4 flex items-center justify-between">
         <p className="text-sm text-brand-light">Dashboard</p>
-        <span className="rounded-full bg-brand-green/15 px-2 py-0.5 text-xs text-brand-green">Live</span>
+        <span className="rounded-full bg-white/10 px-2 py-0.5 text-xs text-white/80">Live</span>
       </div>
       <div className="grid grid-cols-2 gap-3">
         {[t("metric_1"), t("metric_2"), t("metric_3"), t("metric_4")].map((metric, i) => (
-          <div key={metric} className="rounded-xl border border-white/8 bg-navy-600/55 p-3">
+          <div key={metric} className="rounded-xl border border-white/10 bg-white/[0.03] p-3">
             <p className="text-xs text-brand-light">{metric}</p>
             <p className="mt-2 text-xl font-bold text-brand-white">{values[i]}</p>
           </div>
@@ -31,8 +31,8 @@ export function DashboardMock() {
           <span>{t("organic")}</span>
           <span>78%</span>
         </div>
-        <div className="h-2 rounded-full bg-navy-900/80">
-          <div className="h-full w-[78%] rounded-full bg-gradient-to-r from-brand-blue to-brand-accent" />
+        <div className="h-2 rounded-full bg-white/15">
+          <div className="h-full w-[78%] rounded-full bg-gradient-to-r from-white/40 to-white" />
         </div>
       </div>
     </motion.div>

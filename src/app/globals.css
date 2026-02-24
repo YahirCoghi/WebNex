@@ -3,17 +3,17 @@
 @tailwind utilities;
 
 :root {
-  --navy-950: #060a14;
-  --navy-900: #0a0f1e;
-  --navy-800: #0f1729;
-  --navy-700: #162038;
-  --navy-600: #1e2d4f;
-  --blue: #1b3a8c;
-  --blue-mid: #2854c5;
-  --accent: #3b82f6;
-  --silver: #8a9ab8;
-  --silver-light: #b8c4d8;
-  --white: #eef2fa;
+  --navy-950: #060709;
+  --navy-900: #0a0c10;
+  --navy-800: #10141a;
+  --navy-700: #151b24;
+  --navy-600: #1f2733;
+  --blue: #5a6b84;
+  --blue-mid: #7f93ad;
+  --accent: #d0a967;
+  --silver: #97a2b1;
+  --silver-light: #c4ccd8;
+  --white: #f1f4f9;
   --green: #34d399;
 }
 
@@ -27,9 +27,13 @@ body {
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--font-manrope), sans-serif;
-  background: var(--navy-900);
+  background: radial-gradient(circle at 20% -10%, #1c2430 0%, transparent 35%), var(--navy-900);
   color: var(--white);
 }
 
@@ -51,11 +55,12 @@ h4 {
 }
 
 .hero-surface {
-  background-color: var(--navy-950);
+  background-color: #050608;
   background-image:
-    radial-gradient(circle at 85% 12%, rgba(59, 130, 246, 0.26) 0, rgba(59, 130, 246, 0) 42%),
-    linear-gradient(rgba(59, 130, 246, 0.03) 1px, transparent 1px),
-    linear-gradient(to right, rgba(59, 130, 246, 0.03) 1px, transparent 1px),
+    linear-gradient(115deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.01) 32%, rgba(0, 0, 0, 0.7) 72%),
+    radial-gradient(circle at 80% 18%, rgba(208, 169, 103, 0.18) 0, rgba(208, 169, 103, 0) 40%),
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to right, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
     url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220' viewBox='0 0 220 220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.84' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='220' height='220' filter='url(%23n)' opacity='0.06'/%3E%3C/svg%3E");
   background-size: auto, 64px 64px, 64px 64px, 220px 220px;
 }

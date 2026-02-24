@@ -62,28 +62,36 @@
   "services": {
     "title": "Services built for outcomes",
     "popular": "Most popular",
+    "enterprise": "Enterprise",
     "from": "from",
     "items": [
       {
         "id": "01",
         "name": "Express Audit",
         "desc": "Fast diagnosis of your current site with actionable priorities.",
-        "price": "$150 USD",
+        "price": "$50 USD",
         "features": ["UX + conversion review", "Technical SEO checklist", "7-day improvement roadmap"]
       },
       {
         "id": "02",
         "name": "Strategic Website",
         "desc": "Lead-focused corporate website for growing SMBs.",
-        "price": "$800 USD",
+        "price": "$300 USD",
         "features": ["Information architecture + persuasive copy", "Mobile-first design", "WhatsApp and form CTA integration"]
       },
       {
         "id": "03",
         "name": "Website + Full Analytics",
         "desc": "End-to-end implementation with funnel visibility.",
-        "price": "$1,200 USD",
+        "price": "$400 USD",
         "features": ["Key metrics dashboard", "GA4 events and conversions", "Initial optimization support"]
+      },
+      {
+        "id": "04",
+        "name": "Enterprise-Scale Web Platform",
+        "desc": "Large-scale web solution for enterprise operations with robust backend and cloud-ready architecture.",
+        "price": "custom quote",
+        "features": ["Enterprise full-stack architecture", "Database on Azure or AWS", "Security, role management, and CI/CD deployment"]
       }
     ]
   },

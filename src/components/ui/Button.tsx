@@ -11,13 +11,13 @@ type ButtonProps = {
 } & ButtonHTMLAttributes<HTMLButtonElement>;
 
 const baseClasses =
-  "inline-flex items-center justify-center rounded-lg px-5 py-3 text-sm font-semibold transition-all duration-300";
+  "inline-flex items-center justify-center rounded-md px-6 py-3 text-xs font-semibold uppercase tracking-[0.18em] transition-all duration-300";
 
 const variantClasses: Record<NonNullable<ButtonProps["variant"]>, string> = {
   primary:
-    "bg-brand-mid text-brand-white hover:-translate-y-0.5 hover:brightness-110 shadow-soft",
+    "border border-white/50 bg-white/10 text-brand-white backdrop-blur hover:-translate-y-0.5 hover:border-white hover:bg-white hover:text-black",
   outline:
-    "border border-brand-accent/60 text-brand-white hover:bg-brand-accent/10",
+    "border border-white/35 text-brand-white hover:border-white hover:bg-white/10",
   ghost: "text-brand-light hover:text-brand-white",
 };
 

@@ -6,7 +6,7 @@ export async function Footer() {
   const t = await getTranslations("footer");
 
   return (
-    <footer className="bg-navy-800">
+    <footer className="border-t border-white/10 bg-neutral-950">
       <div className="mx-auto grid w-full max-w-6xl gap-10 px-4 py-16 sm:px-6 md:grid-cols-3">
         <div>
           <Image
@@ -20,21 +20,35 @@ export async function Footer() {
         </div>
 
         <div>
-          <h4 className="text-sm font-semibold uppercase tracking-[0.08em] text-brand-white">{t("services")}</h4>
+          <h4 className="text-xs font-semibold uppercase tracking-[0.24em] text-brand-white">{t("services")}</h4>
           <ul className="mt-4 space-y-2 text-sm text-brand-light">
-            <li>Auditoria Express</li>
-            <li>Web Estrategica</li>
+            <li>Auditoría Express</li>
+            <li>Web Estratégica</li>
             <li>Web + Analytics</li>
           </ul>
         </div>
 
         <div>
-          <h4 className="text-sm font-semibold uppercase tracking-[0.08em] text-brand-white">{t("contact")}</h4>
+          <h4 className="text-xs font-semibold uppercase tracking-[0.24em] text-brand-white">{t("contact")}</h4>
           <ul className="mt-4 space-y-2 text-sm text-brand-light">
-            <li>hola@nexsystems.cr</li>
-            <li>San Jose, Costa Rica</li>
             <li>
-              <Link className="hover:text-brand-white" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+              <Link className="hover:text-brand-white" href="mailto:nexsystems@gmail.com">
+                nexsystems@gmail.com
+              </Link>
+            </li>
+            <li>
+              <Link className="hover:text-brand-white" href="tel:+50663904321">
+                +506 6390 4321
+              </Link>
+            </li>
+            <li>San José, Costa Rica</li>
+            <li>
+              <Link
+                className="hover:text-brand-white"
+                href="https://www.instagram.com/nex_systems/?utm_source=ig_web_button_share_sheet"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Instagram
               </Link>
             </li>

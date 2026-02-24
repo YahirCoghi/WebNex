@@ -28,7 +28,7 @@ export function StatsStrip() {
   const t = useTranslations("stats");
 
   return (
-    <section id="stats-strip" className="anchor-offset border-y border-white/10 bg-navy-800">
+    <section id="stats-strip" className="anchor-offset border-y border-white/10 bg-neutral-900">
       <div className="mx-auto grid w-full max-w-6xl grid-cols-2 gap-8 px-4 py-10 sm:px-6 lg:grid-cols-4">
         <article>
           <Counter end={3} suffix="s" />
