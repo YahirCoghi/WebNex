@@ -83,8 +83,8 @@ export default async function LocaleLayout({children, params}: Props) {
     serviceArea: {"@type": "Country", name: "Costa Rica"},
   };
 
-  const gaId = process.env.NEXT_PUBLIC_GA4_ID;
-  const hasValidGaId = Boolean(gaId && /^G-[A-Z0-9]+$/i.test(gaId) && !gaId.includes("XXXXXXXX"));
+  const gaId = process.env.NEXT_PUBLIC_GA4_ID?.trim();
+  const hasValidGaId = Boolean(gaId && /^G-[A-Z0-9]+$/i.test(gaId));
 
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
