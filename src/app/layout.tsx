@@ -18,7 +18,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://nexsystems.cr"),
+  metadataBase: new URL("https://www.nexsystems.org"),
 };
 
 export default function RootLayout({

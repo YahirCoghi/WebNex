@@ -1,4 +1,4 @@
-import {GoogleAnalytics} from "@next/third-parties/google";
+﻿import Script from "next/script";
 import type {Metadata} from "next";
 import {NextIntlClientProvider} from "next-intl";
 import {getMessages, setRequestLocale} from "next-intl/server";
@@ -13,6 +13,8 @@ type Props = {
   params: {locale: string};
 };
 
+const baseUrl = "https://www.nexsystems.org";
+
 const metadataByLocale: Record<AppLocale, Metadata> = {
   es: {
     title: "NexSystems - Páginas Web que Generan Leads | Costa Rica",
@@ -22,7 +24,7 @@ const metadataByLocale: Record<AppLocale, Metadata> = {
       title: "NexSystems - Páginas Web que Generan Leads",
       description:
         "Diseñamos páginas web estratégicas para pymes en Costa Rica. Orientadas a conversión, con analytics y mobile-first.",
-      url: "https://nexsystems.cr",
+      url: baseUrl,
       siteName: "NexSystems",
       locale: "es_CR",
       type: "website",
@@ -37,7 +39,7 @@ const metadataByLocale: Record<AppLocale, Metadata> = {
       title: "NexSystems - Lead-Generating Websites",
       description:
         "Strategic websites for Costa Rican SMBs, built for conversion with analytics and mobile-first UX.",
-      url: "https://nexsystems.cr",
+      url: baseUrl,
       siteName: "NexSystems",
       locale: "en_US",
       type: "website",
@@ -57,10 +59,10 @@ export function generateMetadata({params}: Omit<Props, "children">): Metadata {
   return {
     ...metadataByLocale[selected],
     alternates: {
-      canonical: `https://nexsystems.cr/${selected}`,
+      canonical: `${baseUrl}/${selected}`,
       languages: {
-        es: "https://nexsystems.cr/es",
-        en: "https://nexsystems.cr/en",
+        es: `${baseUrl}/es`,
+        en: `${baseUrl}/en`,
       },
     },
   };
@@ -78,7 +80,7 @@ export default async function LocaleLayout({children, params}: Props) {
     "@type": "LocalBusiness",
     name: "NexSystems",
     description: "Strategic lead-focused web development for Costa Rican SMBs.",
-    url: "https://nexsystems.cr",
+    url: baseUrl,
     address: {"@type": "PostalAddress", addressCountry: "CR", addressLocality: "San Jose"},
     serviceArea: {"@type": "Country", name: "Costa Rica"},
   };
@@ -92,7 +94,25 @@ export default async function LocaleLayout({children, params}: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{__html: JSON.stringify(jsonLd)}}
       />
-      {hasValidGaId ? <GoogleAnalytics gaId={gaId as string} /> : null}
+
+      {hasValidGaId ? (
+        <>
+          <Script src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`} strategy="afterInteractive" />
+          <Script
+            id="ga4-config"
+            strategy="afterInteractive"
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${gaId}');
+              `,
+            }}
+          />
+        </>
+      ) : null}
+
       <div className="bg-navy-900 text-brand-white">
         <Navbar />
         <main>{children}</main>
