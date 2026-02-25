@@ -97,10 +97,10 @@ export default async function LocaleLayout({children, params}: Props) {
 
       {hasValidGaId ? (
         <>
-          <Script src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`} strategy="afterInteractive" />
+          <Script src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`} strategy="beforeInteractive" />
           <Script
             id="ga4-config"
-            strategy="afterInteractive"
+            strategy="beforeInteractive"
             dangerouslySetInnerHTML={{
               __html: `
                 window.dataLayer = window.dataLayer || [];
