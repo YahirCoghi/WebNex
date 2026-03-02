@@ -25,7 +25,20 @@
     "metric_2": "Usuarios",
     "metric_3": "Eventos",
     "metric_4": "Engagement",
-    "organic": "Tráfico orgánico"
+    "organic": "Tráfico orgánico",
+    "panel_title": "Panel Estratégico",
+    "panel_badge": "Nivel Profesional",
+    "panel_sub": "Implementamos webs comerciales con arquitectura lista para escalar, optimizadas para conversión y acompañadas por medición técnica.",
+    "panel_item_1_title": "Arquitectura web",
+    "panel_item_1_desc": "Base técnica robusta con SEO técnico, rendimiento y estructura clara para crecimiento.",
+    "panel_item_2_title": "Conversión comercial",
+    "panel_item_2_desc": "CTA visibles, flujo de contacto optimizado y narrativa enfocada en generación de oportunidades.",
+    "panel_item_3_title": "Operación y control",
+    "panel_item_3_desc": "Integración de formularios, WhatsApp y analítica para decisiones de negocio con datos.",
+    "panel_coverage": "Cobertura de implementación",
+    "panel_track_1": "UX y conversión",
+    "panel_track_2": "Performance y SEO",
+    "panel_track_3": "Tracking y canales"
   },
   "stats": {
     "a": "segundos para entender qué haces",

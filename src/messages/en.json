@@ -25,7 +25,20 @@
     "metric_2": "Users",
     "metric_3": "Events",
     "metric_4": "Engagement",
-    "organic": "Organic traffic"
+    "organic": "Organic traffic",
+    "panel_title": "Strategic Panel",
+    "panel_badge": "Professional Level",
+    "panel_sub": "We build commercial websites with scalable architecture, conversion-first structure, and technical measurement for decision-making.",
+    "panel_item_1_title": "Web architecture",
+    "panel_item_1_desc": "Solid technical foundation with technical SEO, strong performance, and clear scalable structure.",
+    "panel_item_2_title": "Commercial conversion",
+    "panel_item_2_desc": "Visible CTAs, optimized contact flow, and persuasive messaging focused on opportunity generation.",
+    "panel_item_3_title": "Operations and control",
+    "panel_item_3_desc": "Integrated forms, WhatsApp, and analytics for business decisions backed by data.",
+    "panel_coverage": "Implementation coverage",
+    "panel_track_1": "UX and conversion",
+    "panel_track_2": "Performance and SEO",
+    "panel_track_3": "Tracking and channels"
   },
   "stats": {
     "a": "seconds to understand what you do",
