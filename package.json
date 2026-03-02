@@ -10,6 +10,7 @@
     "typecheck": "tsc --noEmit --incremental false"
   },
   "dependencies": {
+    "@google-analytics/data": "^5.2.1",
     "@hookform/resolvers": "^5.2.2",
     "@next/third-parties": "^14.2.35",
     "framer-motion": "^12.34.3",

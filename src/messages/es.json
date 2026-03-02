@@ -21,10 +21,10 @@
     "trust_1": "Sin contrato de largo plazo - proyecto a proyecto",
     "trust_2": "Google Analytics incluido desde el día uno",
     "trust_3": "Entrega en 2-3 semanas",
-    "metric_1": "Clics WA",
-    "metric_2": "Leads",
-    "metric_3": "Formularios",
-    "metric_4": "Tasa conversión",
+    "metric_1": "Sesiones",
+    "metric_2": "Usuarios",
+    "metric_3": "Eventos",
+    "metric_4": "Engagement",
     "organic": "Tráfico orgánico"
   },
   "stats": {
