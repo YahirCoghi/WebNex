@@ -32,15 +32,6 @@ export function Hero() {
             {t("h1_line1")} <span className="font-emphasis font-bold text-brand-light">{t("h1_em")}</span>
           </motion.h1>
 
-          <motion.p
-            initial={{opacity: 0, y: 20}}
-            animate={{opacity: 1, y: 0}}
-            transition={{delay: 0.2, duration: 0.55, ease: "easeOut"}}
-            className="max-w-[520px] border-l-2 border-white/30 pl-4 text-[17px] leading-relaxed text-brand-silver"
-          >
-            {t("sub")}
-          </motion.p>
-
           <motion.div
             initial={{opacity: 0, y: 20}}
             animate={{opacity: 1, y: 0}}
@@ -53,19 +44,6 @@ export function Hero() {
             </Button>
           </motion.div>
 
-          <motion.ul
-            initial={{opacity: 0, y: 20}}
-            animate={{opacity: 1, y: 0}}
-            transition={{delay: 0.4, duration: 0.55, ease: "easeOut"}}
-            className="space-y-2 text-sm text-brand-light"
-          >
-            {[t("trust_1"), t("trust_2"), t("trust_3")].map((item) => (
-              <li key={item} className="flex items-start gap-2">
-                <span className="mt-0.5 inline-flex h-5 w-5 items-center justify-center rounded-full border border-white/30 bg-white/5 text-xs font-semibold text-white">✓</span>
-                <span>{item}</span>
-              </li>
-            ))}
-          </motion.ul>
         </div>
 
         <div>
