@@ -8,7 +8,6 @@ type ServiceItem = {
   id: string;
   name: string;
   desc: string;
-  price: string;
   features: string[];
 };
 
@@ -50,9 +49,6 @@ export function Services() {
                     <li key={feature}>- {feature}</li>
                   ))}
                 </ul>
-                <p className="mt-6 text-2xl font-extrabold text-brand-white">
-                  {t("from")} <span className="text-white">{service.price}</span>
-                </p>
               </motion.article>
             );
           })}
