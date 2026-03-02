@@ -32,8 +32,8 @@ export async function Footer() {
           <h4 className="text-xs font-semibold uppercase tracking-[0.24em] text-brand-white">{t("contact")}</h4>
           <ul className="mt-4 space-y-2 text-sm text-brand-light">
             <li>
-              <Link className="hover:text-brand-white" href="mailto:nexsystems@gmail.com">
-                nexsystems@gmail.com
+              <Link className="hover:text-brand-white" href="mailto:nexsystemss@gmail.com">
+                nexsystemss@gmail.com
               </Link>
             </li>
             <li>
