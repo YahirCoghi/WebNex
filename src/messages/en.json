@@ -1,7 +1,7 @@
-{
+﻿{
   "meta": {
-    "title": "NexSystems - Lead-Generating Websites | Costa Rica",
-    "description": "We design strategic websites for small businesses in Costa Rica. Conversion-focused, analytics-ready, mobile-first. Free express audit."
+    "title": "NexSystems - Strategic websites for companies | Costa Rica",
+    "description": "We design corporate websites and digital experiences focused on commercial clarity, conversion, and professional positioning for companies in Costa Rica."
   },
   "nav": {
     "services": "Services",
@@ -13,108 +13,111 @@
     "menu": "Menu"
   },
   "hero": {
-    "eyebrow": "Strategic Web Development - Costa Rica",
-    "h1_line1": "Your website should generate leads",
-    "h1_em": "while you sleep.",
-    "sub": "We design conversion-focused websites for small businesses in Costa Rica, with analytics, clear CTAs, and pages built so every visit matters.",
+    "eyebrow": "Strategic web design for companies • Costa Rica",
+    "h1_line1": "We design websites that elevate your brand",
+    "h1_em": "and convert better.",
+    "sub": "We create corporate websites, commercial landing pages, and digital experiences built to help clients understand your value, trust your company, and contact you more easily.",
     "cta_wa": "Direct WhatsApp",
-    "cta_audit": "Free audit",
-    "trust_1": "No long-term contracts - project by project",
-    "trust_2": "Google Analytics included from day one",
-    "trust_3": "Delivery in 2-3 weeks",
+    "cta_audit": "Request audit",
+    "trust_1": "Messaging, structure, and design aligned with your commercial offer.",
+    "trust_2": "Clear desktop and mobile experience that builds stronger trust.",
+    "trust_3": "Forms, WhatsApp, and analytics ready to measure real opportunities.",
     "metric_1": "Sessions",
     "metric_2": "Users",
     "metric_3": "Events",
     "metric_4": "Engagement",
     "organic": "Organic traffic",
-    "panel_title": "Strategic Panel",
-    "panel_badge": "Professional Level",
-    "panel_sub": "We build commercial websites with scalable architecture, conversion-first structure, and technical measurement for decision-making.",
-    "panel_item_1_title": "Web architecture",
-    "panel_item_1_desc": "Solid technical foundation with technical SEO, strong performance, and clear scalable structure.",
-    "panel_item_2_title": "Commercial conversion",
-    "panel_item_2_desc": "Visible CTAs, optimized contact flow, and persuasive messaging focused on opportunity generation.",
-    "panel_item_3_title": "Operations and control",
-    "panel_item_3_desc": "Integrated forms, WhatsApp, and analytics for business decisions backed by data.",
+    "panel_title": "Commercial blueprint",
+    "panel_badge": "Premium presentation",
+    "panel_sub": "A professional website does more than look good: it organizes your offer, improves brand perception, and turns visits into conversations.",
+    "panel_item_1_title": "Offer clarity",
+    "panel_item_1_desc": "Visual hierarchy, precise messaging, and routes designed so visitors understand what you do without friction.",
+    "panel_item_2_title": "Solid architecture",
+    "panel_item_2_desc": "Clean technical foundations, strong performance, and a structure ready to grow with new sections or services.",
+    "panel_item_3_title": "Measurable conversion",
+    "panel_item_3_desc": "WhatsApp, forms, and tracking configured to turn visits into real opportunities.",
     "panel_coverage": "Implementation coverage",
-    "panel_track_1": "UX and conversion",
-    "panel_track_2": "Performance and SEO",
-    "panel_track_3": "Tracking and channels"
+    "panel_track_1": "Offer and positioning",
+    "panel_track_2": "Experience and SEO",
+    "panel_track_3": "Contact and tracking"
   },
   "stats": {
-    "a": "seconds to understand what you do",
-    "b": "of SMBs lose leads due to poor UX",
-    "c": "more conversions with clear CTAs",
-    "d": "generic templates sold as strategy"
+    "a": "Commercial diagnosis",
+    "b": "Visual direction",
+    "c": "Technical implementation",
+    "d": "Measurable launch"
   },
   "problem": {
-    "title": "Having a website is not enough.",
-    "subtitle": "If it does not guide users to clear action, your site just burns budget.",
+    "eyebrow": "Where things usually fail",
+    "title": "Many companies do have a website. Very few have one that helps them sell better.",
+    "subtitle": "When a website does not explain the offer, does not build trust, or does not make contact easy, it becomes digital presence with little return.",
     "cards": [
       {
         "title": "Unclear message",
-        "desc": "People cannot understand your value in the first 3 seconds."
+        "desc": "Visitors arrive and cannot understand in a few seconds why your company is the right choice."
       },
       {
-        "title": "No real CTA",
-        "desc": "Visitors leave because there is no obvious next step."
+        "title": "Design that lacks authority",
+        "desc": "A confusing or outdated interface reduces trust before the commercial conversation even starts."
       },
       {
-        "title": "No tracking",
-        "desc": "You cannot measure how visits become opportunities."
+        "title": "No clear contact path",
+        "desc": "There are no visible CTAs, the form does not help, or WhatsApp is buried inside the page."
       },
       {
-        "title": "Poor mobile UX",
-        "desc": "Most traffic is mobile and the experience underperforms."
+        "title": "Weak mobile experience",
+        "desc": "Most visits happen on mobile, and that is where credibility gets lost the fastest."
       },
       {
-        "title": "Slow loading",
-        "desc": "Every extra second reduces trust and conversion."
+        "title": "No learning loop",
+        "desc": "Without events or analytics, you cannot tell which content creates interest or where conversion gets blocked."
       }
     ]
   },
   "services": {
-    "title": "Services built for outcomes",
-    "popular": "Most popular",
-    "enterprise": "Enterprise",
+    "eyebrow": "Services",
+    "title": "What we can build for your company",
+    "copy": "From focused audits to full web platforms, everything we design is driven by commercial clarity, professional presentation, and room to grow.",
+    "popular": "Most requested",
+    "enterprise": "Scalable",
     "from": "from",
     "items": [
       {
         "id": "01",
         "name": "Express Audit",
-        "desc": "Fast diagnosis of your current site with actionable priorities.",
+        "desc": "Fast review of your current website with clear findings and actionable priorities.",
         "price": "$50 USD",
         "features": ["UX + conversion review", "Technical SEO checklist", "7-day improvement roadmap"]
       },
       {
         "id": "02",
         "name": "Strategic Website",
-        "desc": "Lead-focused corporate website for growing SMBs.",
+        "desc": "Corporate website designed to build trust and open real business conversations.",
         "price": "$300 USD",
-        "features": ["Information architecture + persuasive copy", "Mobile-first design", "WhatsApp and form CTA integration"]
+        "features": ["Information architecture + persuasive copy", "Mobile-first design", "Integrated WhatsApp and form CTAs"]
       },
       {
         "id": "03",
         "name": "Website + Full Analytics",
-        "desc": "End-to-end implementation with funnel visibility.",
+        "desc": "End-to-end implementation with visibility into which channel and page generate opportunities.",
         "price": "$400 USD",
         "features": ["Key metrics dashboard", "GA4 events and conversions", "Initial optimization support"]
       },
       {
         "id": "04",
-        "name": "Enterprise-Scale Web Platform",
-        "desc": "Large-scale web solution for enterprise operations with robust backend and cloud-ready architecture.",
+        "name": "Scalable Business Web Platform",
+        "desc": "Web platform prepared to grow with robust backend processes and cloud services.",
         "price": "custom quote",
-        "features": ["Enterprise full-stack architecture", "Database on Azure or AWS", "Security, role management, and CI/CD deployment"]
+        "features": ["Enterprise full-stack architecture", "Database on Azure or AWS", "Security, roles, and CI/CD deployment"]
       }
     ]
   },
   "showcase": {
     "eyebrow": "Published work",
-    "title": "Real projects that already exist beyond the mockup",
-    "copy": "This is not just visual positioning. The section below pulls together public work from your GitHub that shows real range: brand landings, CMS-backed experiences, and the foundation of an ERP-oriented product.",
-    "summary_projects": "selected repos",
-    "summary_live": "live demos",
+    "title": "Real projects that show range, judgment, and technical depth",
+    "copy": "This selection brings together published work that shows how we approach brand sites, digital experiences, and products with different levels of complexity.",
+    "summary_projects": "selected projects",
+    "summary_live": "published sites",
     "summary_stack": "visible technologies",
     "updated": "updated",
     "current": "current",
@@ -122,28 +125,32 @@
     "repo": "View repo"
   },
   "why": {
-    "title": "Why NexSystems",
-    "copy": "We are in launch stage, but not guessing: we apply strong technical standards, business-driven strategy, and direct execution for Costa Rican SMBs.",
+    "eyebrow": "Why NexSystems",
+    "title": "Clearer execution, more direct collaboration, stronger business focus",
+    "copy": "We are in launch stage as a brand, but our operating logic is serious: commercial structure, technical quality, and direct execution for companies that need to look better and sell with more order.",
     "cards": [
-      {"title": "Direct collaboration", "desc": "You talk to the person designing and building."},
-      {"title": "Local market focus", "desc": "Messaging tailored to Costa Rican SMB audiences."},
-      {"title": "Modern stack", "desc": "Next.js, performance, and technical SEO by default."},
-      {"title": "Data-driven decisions", "desc": "Improvements are prioritized by conversion impact."}
+      {"title": "Direct collaboration", "desc": "You speak with the person defining structure, design, and implementation."},
+      {"title": "Commercial thinking", "desc": "We do not design just to look good. We design so your website helps you sell better."},
+      {"title": "Modern foundation", "desc": "We work with a current stack, strong performance, and architecture that is ready to grow."},
+      {"title": "Long-term thinking", "desc": "What we launch today leaves room for analytics, automation, and new sections tomorrow."}
     ]
   },
   "process": {
-    "title": "Clear 4-step process",
+    "eyebrow": "Process",
+    "title": "A clear process without unnecessary friction",
+    "subtitle": "We work through a simple sequence so the website moves forward with direction, focus, and well-grounded decisions.",
     "steps": [
-      {"title": "Discovery", "desc": "Business goals, audience, and value proposition."},
-      {"title": "Architecture", "desc": "Structure, copy, and CTAs focused on conversion."},
-      {"title": "Production", "desc": "Design and development with mobile-first mindset."},
-      {"title": "Launch", "desc": "GA4 tracking, final adjustments, and handoff."}
+      {"title": "Discovery", "desc": "We understand the business, value proposition, objections, and the audience you actually want to reach."},
+      {"title": "Architecture", "desc": "We organize sections, copy, narrative, and CTAs so the experience has commercial intent."},
+      {"title": "Production", "desc": "We design and build a clean, fast interface that is mobile-ready from the start."},
+      {"title": "Launch", "desc": "We publish, configure tracking, and leave the base ready to iterate with real data."}
     ]
   },
   "lead": {
-    "title": "Free express audit",
-    "subtitle": "Get an initial diagnosis of your website plus 3 prioritized improvements to capture more leads.",
-    "benefits": ["Reply within 24 business hours", "Actionable conversion checklist", "No commercial commitment"],
+    "eyebrow": "Initial audit",
+    "title": "Request a quick review of your current website",
+    "subtitle": "We review your site and send back an initial diagnosis with clear visual, structural, and commercial opportunities for improvement.",
+    "benefits": ["Reply within 24 business hours", "Useful checklist to prioritize improvements", "No commercial commitment"],
     "name": "Name",
     "email": "Email",
     "url": "Current website URL",
@@ -153,12 +160,14 @@
     "error": "We could not submit the form. Please try again."
   },
   "ctaFinal": {
-    "title": "Your next client can come through your website.",
+    "title": "If your current website no longer reflects the level of your company, we can redesign it with stronger commercial intent.",
+    "subtitle": "We can help you clarify your message, improve your digital presence, and build an experience that converts better from the first interaction.",
     "wa": "WhatsApp",
     "audit": "Free audit"
   },
   "footer": {
-    "desc": "NexSystems designs lead-focused web experiences for small businesses in Costa Rica.",
+    "eyebrow": "NexSystems",
+    "desc": "We design web experiences that help companies look stronger, communicate clearly, and generate better opportunities.",
     "services": "Services",
     "contact": "Contact",
     "legal": "All rights reserved.",

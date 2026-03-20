@@ -1,4 +1,4 @@
-import {ReactNode} from "react";
+﻿import {ReactNode} from "react";
 
 type LabelProps = {
   children: ReactNode;
@@ -8,7 +8,7 @@ type LabelProps = {
 export function Label({children, className = ""}: LabelProps) {
   return (
     <span
-      className={`inline-flex items-center rounded-full border border-brand-accent/35 bg-brand-accent/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.08em] text-brand-light ${className}`}
+      className={`inline-flex items-center rounded-full border border-[#cfe0ff] bg-[#eef4ff] px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-[#3a63d5] ${className}`}
     >
       {children}
     </span>

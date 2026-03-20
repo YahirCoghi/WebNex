@@ -1,4 +1,4 @@
-﻿import Script from "next/script";
+import Script from "next/script";
 import type {Metadata} from "next";
 import {NextIntlClientProvider} from "next-intl";
 import {getMessages, setRequestLocale} from "next-intl/server";
@@ -17,13 +17,13 @@ const baseUrl = "https://www.nexsystems.org";
 
 const metadataByLocale: Record<AppLocale, Metadata> = {
   es: {
-    title: "NexSystems - Páginas Web que Generan Leads | Costa Rica",
+    title: "NexSystems - Webs estrategicas para empresas | Costa Rica",
     description:
-      "Diseñamos páginas web estratégicas para pymes en Costa Rica. Orientadas a conversión, con analytics y mobile-first. Auditoría express gratis.",
+      "Disenamos sitios web corporativos y experiencias digitales enfocadas en claridad comercial, conversion y presencia profesional para empresas en Costa Rica.",
     openGraph: {
-      title: "NexSystems - Páginas Web que Generan Leads",
+      title: "NexSystems - Webs estrategicas para empresas",
       description:
-        "Diseñamos páginas web estratégicas para pymes en Costa Rica. Orientadas a conversión, con analytics y mobile-first.",
+        "Sitios web corporativos, funnels de contacto y presencia digital profesional para empresas que necesitan vender mejor.",
       url: baseUrl,
       siteName: "NexSystems",
       locale: "es_CR",
@@ -32,13 +32,13 @@ const metadataByLocale: Record<AppLocale, Metadata> = {
     twitter: {card: "summary_large_image"},
   },
   en: {
-    title: "NexSystems - Lead-Generating Websites | Costa Rica",
+    title: "NexSystems - Strategic websites for growing companies",
     description:
-      "We design strategic websites for small businesses in Costa Rica. Conversion-focused, analytics-ready, mobile-first. Free express audit.",
+      "We design corporate websites and digital experiences focused on commercial clarity, conversion, and professional positioning for companies in Costa Rica.",
     openGraph: {
-      title: "NexSystems - Lead-Generating Websites",
+      title: "NexSystems - Strategic websites for growing companies",
       description:
-        "Strategic websites for Costa Rican SMBs, built for conversion with analytics and mobile-first UX.",
+        "Corporate websites, contact funnels, and polished digital positioning for companies that need to convert trust into opportunities.",
       url: baseUrl,
       siteName: "NexSystems",
       locale: "en_US",
@@ -79,7 +79,7 @@ export default async function LocaleLayout({children, params}: Props) {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: "NexSystems",
-    description: "Strategic lead-focused web development for Costa Rican SMBs.",
+    description: "Strategic web design and digital experiences for Costa Rican companies.",
     url: baseUrl,
     address: {"@type": "PostalAddress", addressCountry: "CR", addressLocality: "San Jose"},
     serviceArea: {"@type": "Country", name: "Costa Rica"},
@@ -113,7 +113,7 @@ export default async function LocaleLayout({children, params}: Props) {
         </>
       ) : null}
 
-      <div className="bg-navy-900 text-brand-white">
+      <div className="min-h-screen bg-transparent text-slate-950">
         <Navbar />
         <main>{children}</main>
         <Footer />

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import {motion} from "framer-motion";
 import {useTranslations} from "next-intl";
@@ -16,9 +16,13 @@ export function Services() {
   const items = t.raw("items") as ServiceItem[];
 
   return (
-    <section id="services" className="anchor-offset bg-neutral-900 py-20">
+    <section id="services" className="anchor-offset py-20">
       <div className="mx-auto w-full max-w-6xl px-4 sm:px-6">
-        <h2 className="text-3xl font-extrabold text-brand-white sm:text-4xl">{t("title")}</h2>
+        <div className="flex max-w-3xl flex-col gap-4">
+          <Label>{t("eyebrow")}</Label>
+          <h2 className="text-3xl font-extrabold text-slate-950 sm:text-4xl lg:text-[2.85rem]">{t("title")}</h2>
+          <p className="text-base leading-8 text-slate-600">{t("copy")}</p>
+        </div>
 
         <div className="mt-10 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
           {items.map((service, index) => {
@@ -27,26 +31,28 @@ export function Services() {
             return (
               <motion.article
                 key={service.id}
-                whileHover={{y: -3, boxShadow: "0 18px 34px rgba(0, 0, 0, 0.35)"}}
-                className={`relative rounded-2xl border bg-neutral-950/80 p-6 transition-all duration-300 ${
-                  featured || enterprise ? "border-white/45" : "border-white/10"
+                whileHover={{y: -5}}
+                className={`relative overflow-hidden rounded-[30px] border p-6 transition-all duration-300 ${
+                  featured
+                    ? "border-[#a8c3ff] bg-[linear-gradient(180deg,#f4f8ff_0%,#eaf2ff_100%)] shadow-[0_26px_70px_rgba(92,136,246,0.16)]"
+                    : enterprise
+                      ? "border-[#d8e3f8] bg-[#f8fbff] shadow-[0_20px_60px_rgba(145,177,233,0.12)]"
+                      : "border-[#dbe7fb] bg-white/90 shadow-[0_20px_60px_rgba(145,177,233,0.12)]"
                 }`}
               >
-                <div
-                  className={`absolute inset-x-0 top-0 h-0.5 rounded-t-2xl ${
-                    featured || enterprise
-                      ? "bg-gradient-to-r from-white/20 via-white/70 to-white/20"
-                      : "bg-transparent"
-                  }`}
-                />
+                <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-[#82a7ff] via-[#5c88f6] to-[#82a7ff] opacity-90" />
                 {featured && <Label className="mb-4">{t("popular")}</Label>}
                 {enterprise && <Label className="mb-4">{t("enterprise")}</Label>}
-                <p className="text-sm font-semibold text-white/70">{service.id}</p>
-                <h3 className="mt-2 text-xl font-bold text-brand-white">{service.name}</h3>
-                <p className="mt-3 text-sm text-brand-light">{service.desc}</p>
-                <ul className="mt-4 space-y-2 text-sm text-brand-light">
+                {!featured && !enterprise ? <span className="mb-4 inline-flex text-[11px] font-semibold uppercase tracking-[0.16em] text-[#4a72e6]">{service.id}</span> : null}
+                {(featured || enterprise) ? <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[#4a72e6]">{service.id}</p> : null}
+                <h3 className="mt-3 text-xl font-bold text-slate-950">{service.name}</h3>
+                <p className="mt-3 text-sm leading-7 text-slate-600">{service.desc}</p>
+                <ul className="mt-5 space-y-3 text-sm text-slate-700">
                   {service.features.map((feature) => (
-                    <li key={feature}>- {feature}</li>
+                    <li key={feature} className="flex gap-3">
+                      <span className="mt-1 h-2 w-2 rounded-full bg-[#5c88f6]" />
+                      <span>{feature}</span>
+                    </li>
                   ))}
                 </ul>
               </motion.article>

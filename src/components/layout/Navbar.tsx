@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -30,7 +30,7 @@ export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 60);
+    const onScroll = () => setScrolled(window.scrollY > 40);
     window.addEventListener("scroll", onScroll, {passive: true});
     onScroll();
     return () => window.removeEventListener("scroll", onScroll);
@@ -46,28 +46,28 @@ export function Navbar() {
     <nav
       className={`fixed inset-x-0 top-0 z-40 border-b transition-all duration-300 ${
         scrolled
-          ? "border-white/15 bg-black/80 shadow-nav backdrop-blur-[18px]"
+          ? "border-slate-200/80 bg-white/82 shadow-[0_18px_70px_rgba(133,164,218,0.18)] backdrop-blur-[18px]"
           : "border-transparent bg-transparent"
       }`}
     >
       <div className="mx-auto flex h-20 w-full max-w-6xl items-center justify-between px-4 sm:px-6">
-        <Link href={`${homePath}#hero`} className="shrink-0">
+        <Link href={`${homePath}#hero`} className="shrink-0 rounded-full border border-slate-200/70 bg-white/78 px-3 py-2 shadow-[0_12px_36px_rgba(146,173,222,0.16)]">
           <Image
             src="/logo.png"
             alt="NexSystems"
             width={180}
             height={38}
-            className="h-[38px] w-auto object-contain"
+            className="h-[32px] w-auto object-contain sm:h-[38px]"
             priority
           />
         </Link>
 
-        <div className="hidden items-center gap-8 lg:flex">
+        <div className="hidden items-center gap-7 lg:flex">
           {sections.map((section) => (
             <Link
               key={section.key}
               href={`${homePath}${section.href}`}
-              className="text-[11px] font-medium uppercase tracking-[0.24em] text-white/80 transition hover:text-white"
+              className="text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-600 transition hover:text-slate-950"
             >
               {t(section.key)}
             </Link>
@@ -77,7 +77,7 @@ export function Navbar() {
         <div className="hidden items-center gap-3 lg:flex">
           <Link
             href={localePath}
-            className="rounded-md border border-white/25 px-3 py-1.5 text-[11px] uppercase tracking-[0.18em] text-brand-white transition hover:border-white/55"
+            className="rounded-full border border-slate-300 bg-white/78 px-3 py-2 text-[11px] font-semibold uppercase tracking-[0.16em] text-slate-700 transition hover:border-[#8eb3ff] hover:text-slate-950"
           >
             {locale.toUpperCase()} / {nextLocale.toUpperCase()}
           </Link>
@@ -86,8 +86,8 @@ export function Navbar() {
 
         <button
           type="button"
-          className="inline-flex items-center rounded-md border border-white/25 bg-black/30 px-3 py-2 text-sm backdrop-blur lg:hidden"
-          onClick={() => setOpen((v) => !v)}
+          className="inline-flex items-center rounded-full border border-slate-300 bg-white/82 px-4 py-2 text-sm font-medium text-slate-700 shadow-[0_12px_30px_rgba(146,173,222,0.16)] backdrop-blur lg:hidden"
+          onClick={() => setOpen((value) => !value)}
           aria-label={t("menu")}
         >
           {t("menu")}
@@ -95,19 +95,23 @@ export function Navbar() {
       </div>
 
       {open && (
-        <div className="border-t border-white/10 bg-black/90 p-4 backdrop-blur lg:hidden">
+        <div className="border-t border-slate-200/80 bg-white/92 p-4 shadow-[0_18px_60px_rgba(133,164,218,0.18)] backdrop-blur lg:hidden">
           <div className="flex flex-col gap-3">
             {sections.map((section) => (
               <Link
                 key={section.key}
                 href={`${homePath}${section.href}`}
-                className="text-[11px] uppercase tracking-[0.2em] text-white/80"
+                className="rounded-2xl border border-slate-200 bg-white px-4 py-3 text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-700"
                 onClick={() => setOpen(false)}
               >
                 {t(section.key)}
               </Link>
             ))}
-            <Link href={localePath} className="text-[11px] uppercase tracking-[0.2em] text-white" onClick={() => setOpen(false)}>
+            <Link
+              href={localePath}
+              className="rounded-2xl border border-slate-200 bg-white px-4 py-3 text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-700"
+              onClick={() => setOpen(false)}
+            >
               {locale.toUpperCase()} / {nextLocale.toUpperCase()}
             </Link>
             <Button href={`https://wa.me/${waNumber}`} className="w-full" onClick={() => setOpen(false)}>

@@ -1,7 +1,7 @@
 ﻿{
   "meta": {
-    "title": "NexSystems - Páginas Web que Generan Leads | Costa Rica",
-    "description": "Diseñamos páginas web estratégicas para pymes en Costa Rica. Orientadas a conversión, con analytics y mobile-first. Auditoría express gratis."
+    "title": "NexSystems - Webs estratégicas para empresas | Costa Rica",
+    "description": "Diseñamos sitios web corporativos y experiencias digitales enfocadas en claridad comercial, conversión y presencia profesional para empresas en Costa Rica."
   },
   "nav": {
     "services": "Servicios",
@@ -13,97 +13,100 @@
     "menu": "Menú"
   },
   "hero": {
-    "eyebrow": "Desarrollo Web Estratégico - Costa Rica",
-    "h1_line1": "Tu web debería generar leads",
-    "h1_em": "mientras dormís.",
-    "sub": "Diseñamos páginas web para pymes en Costa Rica orientadas a conversión, con analytics, CTA claros y optimizadas para que cada visita cuente.",
+    "eyebrow": "Web estratégica para empresas • Costa Rica",
+    "h1_line1": "Diseñamos webs que elevan tu marca",
+    "h1_em": "y convierten mejor.",
+    "sub": "Creamos sitios corporativos, landings comerciales y experiencias digitales pensadas para que un cliente entienda tu valor, confíe en tu empresa y te contacte con más facilidad.",
     "cta_wa": "WhatsApp directo",
-    "cta_audit": "Auditoría gratis",
-    "trust_1": "Sin contrato de largo plazo - proyecto a proyecto",
-    "trust_2": "Google Analytics incluido desde el día uno",
-    "trust_3": "Entrega en 2-3 semanas",
+    "cta_audit": "Solicitar auditoría",
+    "trust_1": "Mensaje, estructura y diseño alineados a tu propuesta comercial.",
+    "trust_2": "Experiencia clara en desktop y móvil para transmitir más confianza.",
+    "trust_3": "Formulario, WhatsApp y analítica listos para medir oportunidades.",
     "metric_1": "Sesiones",
     "metric_2": "Usuarios",
     "metric_3": "Eventos",
     "metric_4": "Engagement",
     "organic": "Tráfico orgánico",
-    "panel_title": "Panel Estratégico",
-    "panel_badge": "Nivel Profesional",
-    "panel_sub": "Implementamos webs comerciales con arquitectura lista para escalar, optimizadas para conversión y acompañadas por medición técnica.",
-    "panel_item_1_title": "Arquitectura web",
-    "panel_item_1_desc": "Base técnica robusta con SEO técnico, rendimiento y estructura clara para crecimiento.",
-    "panel_item_2_title": "Conversión comercial",
-    "panel_item_2_desc": "CTA visibles, flujo de contacto optimizado y narrativa enfocada en generación de oportunidades.",
-    "panel_item_3_title": "Operación y control",
-    "panel_item_3_desc": "Integración de formularios, WhatsApp y analítica para decisiones de negocio con datos.",
+    "panel_title": "Blueprint comercial",
+    "panel_badge": "Presentación premium",
+    "panel_sub": "Una web profesional no solo se ve bien: ordena tu oferta, mejora la percepción de tu marca y convierte visitas en conversaciones.",
+    "panel_item_1_title": "Claridad de propuesta",
+    "panel_item_1_desc": "Jerarquía visual, mensajes precisos y rutas pensadas para que el visitante entienda qué haces sin fricción.",
+    "panel_item_2_title": "Arquitectura sólida",
+    "panel_item_2_desc": "Bases técnicas limpias, buena performance y estructura preparada para crecer con nuevas secciones o servicios.",
+    "panel_item_3_title": "Conversión medible",
+    "panel_item_3_desc": "WhatsApp, formularios y tracking configurados para transformar visitas en oportunidades reales.",
     "panel_coverage": "Cobertura de implementación",
-    "panel_track_1": "UX y conversión",
-    "panel_track_2": "Performance y SEO",
-    "panel_track_3": "Tracking y canales"
+    "panel_track_1": "Oferta y posicionamiento",
+    "panel_track_2": "Experiencia y SEO",
+    "panel_track_3": "Contacto y tracking"
   },
   "stats": {
-    "a": "segundos para entender qué haces",
-    "b": "de pymes pierden leads por mala UX",
-    "c": "más conversión con CTA claros",
-    "d": "plantillas vendidas como estrategia"
+    "a": "Diagnóstico comercial",
+    "b": "Dirección visual",
+    "c": "Implementación técnica",
+    "d": "Lanzamiento medible"
   },
   "problem": {
-    "title": "Tener web no alcanza.",
-    "subtitle": "Si no guía al usuario a una acción concreta, tu sitio solo consume presupuesto.",
+    "eyebrow": "Qué suele fallar",
+    "title": "Muchas empresas sí tienen web. Pocas tienen una web que venda mejor.",
+    "subtitle": "Cuando el sitio no explica la propuesta, no transmite confianza o no facilita el contacto, termina siendo una presencia digital sin retorno.",
     "cards": [
       {
-        "title": "Mensaje confuso",
-        "desc": "No queda claro en 3 segundos por qué deberían contactarte."
+        "title": "Mensaje poco claro",
+        "desc": "El visitante entra y no entiende en pocos segundos por qué tu empresa es la opción correcta."
       },
       {
-        "title": "Sin CTA real",
-        "desc": "La gente entra, mira y se va porque no hay siguiente paso obvio."
+        "title": "Diseño que no transmite nivel",
+        "desc": "Una interfaz confusa o desactualizada reduce confianza antes de que empiece la conversación comercial."
       },
       {
-        "title": "Sin medición",
-        "desc": "No sabes cuántas visitas se convierten en oportunidades."
+        "title": "Sin camino a contacto",
+        "desc": "No hay CTA visibles, el formulario no ayuda o WhatsApp queda perdido dentro de la página."
       },
       {
-        "title": "Mobile pobre",
-        "desc": "La mayoría del tráfico viene de celular y la experiencia falla."
+        "title": "Experiencia móvil débil",
+        "desc": "La mayoría de visitas llega desde celular, y ahí es donde más rápido se pierde credibilidad."
       },
       {
-        "title": "Carga lenta",
-        "desc": "Cada segundo extra de carga reduce conversión y confianza."
+        "title": "Cero aprendizaje",
+        "desc": "Sin eventos ni analítica no sabes qué contenido genera interés ni qué parte del sitio bloquea la conversión."
       }
     ]
   },
   "services": {
-    "title": "Servicios enfocados en resultados",
-    "popular": "Más popular",
-    "enterprise": "Enterprise",
+    "eyebrow": "Servicios",
+    "title": "Qué podemos construir para tu empresa",
+    "copy": "Diseñamos desde auditorías puntuales hasta plataformas web completas, siempre con foco en claridad comercial, imagen profesional y capacidad de crecimiento.",
+    "popular": "Más solicitado",
+    "enterprise": "Escalable",
     "from": "desde",
     "items": [
       {
         "id": "01",
         "name": "Auditoría Express",
-        "desc": "Diagnóstico rápido de tu sitio actual con prioridades accionables.",
+        "desc": "Diagnóstico rápido de tu sitio actual con hallazgos claros y prioridades accionables.",
         "price": "$50 USD",
         "features": ["Revisión UX + conversión", "Checklist SEO técnico", "Plan de mejora de 7 días"]
       },
       {
         "id": "02",
         "name": "Web Estratégica",
-        "desc": "Sitio corporativo orientado a leads para pymes en crecimiento.",
+        "desc": "Sitio corporativo orientado a generar confianza y abrir conversaciones de negocio.",
         "price": "$300 USD",
-        "features": ["Arquitectura y copy persuasivo", "Diseño mobile-first", "Integración de CTA a WhatsApp y formulario"]
+        "features": ["Arquitectura y copy persuasivo", "Diseño mobile-first", "CTA a WhatsApp y formulario integrados"]
       },
       {
         "id": "03",
         "name": "Web + Analytics Completo",
-        "desc": "Implementación integral con trazabilidad de embudo comercial.",
+        "desc": "Implementación integral con trazabilidad para entender qué canal y qué página generan oportunidades.",
         "price": "$400 USD",
         "features": ["Dashboard de métricas clave", "Eventos GA4 y conversiones", "Acompañamiento de optimización inicial"]
       },
       {
         "id": "04",
         "name": "Web Empresarial Escalable",
-        "desc": "Plataforma web para operación empresarial a gran escala con backend robusto y arquitectura cloud.",
+        "desc": "Plataforma web preparada para crecer con backend robusto, procesos internos y servicios cloud.",
         "price": "a cotizar",
         "features": ["Arquitectura full-stack empresarial", "Base de datos en Azure o AWS", "Seguridad, roles y despliegue continuo"]
       }
@@ -111,10 +114,10 @@
   },
   "showcase": {
     "eyebrow": "Trabajo publicado",
-    "title": "Proyectos reales que ya viven fuera del mockup",
-    "copy": "No vendemos solo promesa visual. Esta sección reúne piezas publicadas desde tu GitHub que muestran rango real: landings de marca, experiencias con CMS y una base de ERP orientada a operación.",
-    "summary_projects": "repos seleccionados",
-    "summary_live": "demos activas",
+    "title": "Proyectos reales que muestran rango, criterio y capacidad técnica",
+    "copy": "Esta selección reúne proyectos publicados que demuestran cómo trabajamos marcas, experiencias web y productos con distintos niveles de complejidad.",
+    "summary_projects": "proyectos seleccionados",
+    "summary_live": "sitios publicados",
     "summary_stack": "tecnologías visibles",
     "updated": "actualizado",
     "current": "vigente",
@@ -122,28 +125,32 @@
     "repo": "Ver repo"
   },
   "why": {
-    "title": "Por qué NexSystems",
-    "copy": "Estamos en etapa de lanzamiento, pero no improvisamos: aplicamos estándares técnicos, enfoque comercial y ejecución directa para el mercado costarricense.",
+    "eyebrow": "Por qué NexSystems",
+    "title": "Una ejecución más clara, más directa y más enfocada en negocio",
+    "copy": "Estamos en etapa de lanzamiento como marca, pero ya trabajamos con una lógica seria: estructura comercial, calidad técnica y atención directa para empresas que necesitan verse mejor y vender con más orden.",
     "cards": [
-      {"title": "Atención directa", "desc": "Hablas con quien diseña y construye."},
-      {"title": "Enfoque local", "desc": "Mensajes adaptados a pymes de Costa Rica."},
-      {"title": "Tecnología moderna", "desc": "Next.js, performance y SEO técnico desde base."},
-      {"title": "Decisión por datos", "desc": "Cada mejora se prioriza por impacto en conversión."}
+      {"title": "Atención directa", "desc": "Hablas con quien define la estructura, el diseño y la implementación."},
+      {"title": "Criterio comercial", "desc": "No diseñamos solo para que se vea bien, sino para que el sitio te ayude a vender mejor."},
+      {"title": "Base moderna", "desc": "Trabajamos con stack actual, buen rendimiento y una arquitectura lista para crecer."},
+      {"title": "Pensamiento a largo plazo", "desc": "Lo que lanzamos hoy deja base para sumar analítica, automatización y nuevas secciones después."}
     ]
   },
   "process": {
-    "title": "Proceso claro en 4 pasos",
+    "eyebrow": "Proceso",
+    "title": "Un proceso claro, sin fricción innecesaria",
+    "subtitle": "Trabajamos con una secuencia simple para que la web avance con criterio, foco y decisiones bien sustentadas.",
     "steps": [
-      {"title": "Discovery", "desc": "Objetivo comercial, público y propuesta de valor."},
-      {"title": "Arquitectura", "desc": "Estructura, copy y CTA orientados a conversión."},
-      {"title": "Producción", "desc": "Diseño y desarrollo con foco mobile-first."},
-      {"title": "Lanzamiento", "desc": "Tracking GA4, ajustes finales y handoff."}
+      {"title": "Discovery", "desc": "Entendemos negocio, propuesta de valor, objeciones y público al que realmente quieres llegar."},
+      {"title": "Arquitectura", "desc": "Ordenamos secciones, copy, narrativa y CTA para que la experiencia tenga intención comercial."},
+      {"title": "Producción", "desc": "Diseñamos y desarrollamos una interfaz limpia, rápida y adaptable a móvil desde el inicio."},
+      {"title": "Lanzamiento", "desc": "Publicamos, configuramos tracking y dejamos lista la base para iterar con datos reales."}
     ]
   },
   "lead": {
-    "title": "Auditoría express gratuita",
-    "subtitle": "Recibí un diagnóstico inicial de tu sitio y 3 mejoras priorizadas para captar más leads.",
-    "benefits": ["Respuesta en menos de 24 horas hábiles", "Checklist de conversión accionable", "Sin compromiso comercial"],
+    "eyebrow": "Auditoría inicial",
+    "title": "Solicitá una auditoría rápida de tu sitio",
+    "subtitle": "Revisamos tu web actual y te compartimos un diagnóstico inicial con oportunidades claras de mejora visual, estructural y comercial.",
+    "benefits": ["Respuesta en menos de 24 horas hábiles", "Checklist útil para priorizar cambios", "Sin compromiso comercial"],
     "name": "Nombre",
     "email": "Email",
     "url": "URL de tu web actual",
@@ -153,12 +160,14 @@
     "error": "No pudimos enviar el formulario. Inténtalo de nuevo."
   },
   "ctaFinal": {
-    "title": "Tu siguiente cliente puede llegar por tu web.",
+    "title": "Si tu web actual ya no representa el nivel de tu empresa, la rediseñamos con criterio comercial.",
+    "subtitle": "Podemos ayudarte a ordenar tu mensaje, mejorar tu presencia digital y abrir una experiencia que convierta mejor desde el primer contacto.",
     "wa": "WhatsApp",
     "audit": "Auditoría gratis"
   },
   "footer": {
-    "desc": "NexSystems diseña experiencias web orientadas a leads para pymes en Costa Rica.",
+    "eyebrow": "NexSystems",
+    "desc": "Diseñamos experiencias web que ayudan a empresas a verse mejor, comunicar con claridad y generar más oportunidades.",
     "services": "Servicios",
     "contact": "Contacto",
     "legal": "Todos los derechos reservados.",

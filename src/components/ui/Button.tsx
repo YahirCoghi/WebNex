@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Link from "next/link";
 import {ButtonHTMLAttributes, ReactNode} from "react";
@@ -11,14 +11,14 @@ type ButtonProps = {
 } & ButtonHTMLAttributes<HTMLButtonElement>;
 
 const baseClasses =
-  "inline-flex items-center justify-center rounded-md px-6 py-3 text-xs font-semibold uppercase tracking-[0.18em] transition-all duration-300";
+  "inline-flex items-center justify-center rounded-full px-6 py-3 text-xs font-semibold uppercase tracking-[0.16em] transition-all duration-300";
 
 const variantClasses: Record<NonNullable<ButtonProps["variant"]>, string> = {
   primary:
-    "border border-white/50 bg-white/10 text-brand-white backdrop-blur hover:-translate-y-0.5 hover:border-white hover:bg-white hover:text-black",
+    "border border-[#5c88f6] bg-[#5c88f6] text-white shadow-[0_18px_40px_rgba(92,136,246,0.24)] hover:-translate-y-0.5 hover:bg-[#2f68ee] hover:border-[#2f68ee]",
   outline:
-    "border border-white/35 text-brand-white hover:border-white hover:bg-white/10",
-  ghost: "text-brand-light hover:text-brand-white",
+    "border border-slate-300 bg-white/72 text-slate-900 hover:-translate-y-0.5 hover:border-[#8eb3ff] hover:bg-[#eef4ff]",
+  ghost: "text-slate-600 hover:text-slate-900",
 };
 
 export function Button({
