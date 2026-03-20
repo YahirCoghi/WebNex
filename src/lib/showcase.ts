@@ -50,22 +50,22 @@ const showcaseSeeds: ShowcaseSeed[] = [
     liveUrl: "https://adopciones-kalo.netlify.app",
   },
   {
-    repo: "solenn",
-    title: "Solenn",
+    repo: "Gold-Group",
+    title: "Gold Group",
     category: {
-      es: "Landing visual de marca",
-      en: "Brand-driven visual landing",
+      es: "Ecosistema deportivo y experiencia digital",
+      en: "Sports ecosystem and digital experience",
     },
     summary: {
-      es: "Sitio orientado a identidad y presencia, con un enfoque fuerte en composicion visual y storytelling editorial.",
-      en: "A presence-first website built around identity, visual composition, and editorial storytelling.",
+      es: "Plataforma web con multiples modulos, narrativa institucional, formularios de contacto y arquitectura lista para crecer por lineas de negocio.",
+      en: "Web platform with multiple modules, institutional storytelling, contact flows, and an architecture built to scale by business line.",
     },
     highlight: {
-      es: "Demuestra criterio de presentacion para marcas que necesitan verse premium desde el primer scroll.",
-      en: "Shows presentation quality for brands that need to feel premium from the first scroll.",
+      es: "Demuestra capacidad para estructurar marcas complejas con secciones, rutas y conversiones mas alla de una landing tradicional.",
+      en: "Shows our ability to structure complex brands with sections, routes, and conversion flows beyond a traditional landing page.",
     },
-    stack: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
-    liveUrl: "https://yahircoghi.github.io/solenn/",
+    stack: ["Next.js", "TypeScript", "Forms", "Vercel"],
+    liveUrl: "https://goldacademies.com",
   },
   {
     repo: "ERP",
