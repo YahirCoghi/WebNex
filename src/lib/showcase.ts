@@ -65,7 +65,7 @@ const showcaseSeeds: ShowcaseSeed[] = [
       en: "Shows our ability to structure complex brands with sections, routes, and conversion flows beyond a traditional landing page.",
     },
     stack: ["Next.js", "TypeScript", "Forms", "Vercel"],
-    liveUrl: "https://goldacademies.com",
+    liveUrl: "https://gold-group.vercel.app/",
   },
   {
     repo: "ERP",

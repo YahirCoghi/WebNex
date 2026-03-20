@@ -38,14 +38,6 @@ export async function Showcase() {
                     {t("live")}
                   </Link>
                 ) : null}
-                <Link
-                  href={project.repoUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="rounded-full border border-slate-300 bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em] text-slate-700 transition hover:border-[#8eb3ff] hover:bg-[#eef4ff]"
-                >
-                  {t("repo")}
-                </Link>
               </div>
             </article>
           ))}
