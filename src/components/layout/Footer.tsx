@@ -22,9 +22,10 @@ export async function Footer() {
         <div>
           <h4 className="text-xs font-semibold uppercase tracking-[0.24em] text-brand-white">{t("services")}</h4>
           <ul className="mt-4 space-y-2 text-sm text-brand-light">
-            <li>Auditoría Express</li>
-            <li>Web Estratégica</li>
+            <li>Auditoria Express</li>
+            <li>Web Estrategica</li>
             <li>Web + Analytics</li>
+            <li>Plataformas empresariales</li>
           </ul>
         </div>
 
@@ -41,7 +42,7 @@ export async function Footer() {
                 +506 6390 4321
               </Link>
             </li>
-            <li>San José, Costa Rica</li>
+            <li>San Jose, Costa Rica</li>
             <li>
               <Link
                 className="hover:text-brand-white"
@@ -50,6 +51,16 @@ export async function Footer() {
                 rel="noopener noreferrer"
               >
                 Instagram
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="hover:text-brand-white"
+                href="https://github.com/YahirCoghi"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
               </Link>
             </li>
           </ul>

@@ -5,6 +5,7 @@
   },
   "nav": {
     "services": "Servicios",
+    "work": "Proyectos",
     "about": "Nosotros",
     "process": "Proceso",
     "audit": "Auditoría Gratis",
@@ -107,6 +108,18 @@
         "features": ["Arquitectura full-stack empresarial", "Base de datos en Azure o AWS", "Seguridad, roles y despliegue continuo"]
       }
     ]
+  },
+  "showcase": {
+    "eyebrow": "Trabajo publicado",
+    "title": "Proyectos reales que ya viven fuera del mockup",
+    "copy": "No vendemos solo promesa visual. Esta sección reúne piezas publicadas desde tu GitHub que muestran rango real: landings de marca, experiencias con CMS y una base de ERP orientada a operación.",
+    "summary_projects": "repos seleccionados",
+    "summary_live": "demos activas",
+    "summary_stack": "tecnologías visibles",
+    "updated": "actualizado",
+    "current": "vigente",
+    "live": "Ver sitio",
+    "repo": "Ver repo"
   },
   "why": {
     "title": "Por qué NexSystems",

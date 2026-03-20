@@ -5,6 +5,7 @@
   },
   "nav": {
     "services": "Services",
+    "work": "Projects",
     "about": "About",
     "process": "Process",
     "audit": "Free Audit",
@@ -107,6 +108,18 @@
         "features": ["Enterprise full-stack architecture", "Database on Azure or AWS", "Security, role management, and CI/CD deployment"]
       }
     ]
+  },
+  "showcase": {
+    "eyebrow": "Published work",
+    "title": "Real projects that already exist beyond the mockup",
+    "copy": "This is not just visual positioning. The section below pulls together public work from your GitHub that shows real range: brand landings, CMS-backed experiences, and the foundation of an ERP-oriented product.",
+    "summary_projects": "selected repos",
+    "summary_live": "live demos",
+    "summary_stack": "visible technologies",
+    "updated": "updated",
+    "current": "current",
+    "live": "View site",
+    "repo": "View repo"
   },
   "why": {
     "title": "Why NexSystems",
