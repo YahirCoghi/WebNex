@@ -10,8 +10,6 @@ import {Button} from "../ui/Button";
 const sections = [
   {key: "services", href: "#services"},
   {key: "work", href: "#showcase"},
-  {key: "about", href: "#why"},
-  {key: "process", href: "#process"},
   {key: "audit", href: "#leadmagnet"},
 ] as const;
 

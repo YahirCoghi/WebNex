@@ -52,16 +52,14 @@ export function LeadMagnet() {
           <Label>{t("eyebrow")}</Label>
           <h2 className="mt-5 text-3xl font-extrabold text-slate-950 sm:text-4xl">{t("title")}</h2>
           <p className="mt-4 max-w-lg text-base leading-8 text-slate-600">{t("subtitle")}</p>
-          <div className="mt-6 space-y-3">
-            {(t.raw("benefits") as string[]).map((benefit, index) => (
-              <div key={benefit} className="flex items-start gap-3 rounded-[24px] border border-[#dbe7fb] bg-white/90 px-4 py-4 shadow-[0_16px_40px_rgba(145,177,233,0.12)]">
-                <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-[#eef4ff] text-sm font-semibold text-[#4a72e6]">
-                  {index + 1}
-                </span>
-                <p className="text-sm leading-7 text-slate-600">{benefit}</p>
-              </div>
+          <ul className="mt-6 space-y-3 text-sm leading-7 text-slate-600">
+            {(t.raw("benefits") as string[]).map((benefit) => (
+              <li key={benefit} className="flex gap-3">
+                <span className="mt-2 h-2 w-2 rounded-full bg-[#5c88f6]" />
+                <span>{benefit}</span>
+              </li>
             ))}
-          </div>
+          </ul>
         </motion.div>
 
         <motion.form
