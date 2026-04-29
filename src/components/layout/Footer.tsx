@@ -5,13 +5,17 @@ import {Label} from "../ui/Label";
 
 export async function Footer() {
   const t = await getTranslations("footer");
+  const servicesT = await getTranslations("services");
+  const services = (servicesT.raw("items") as Array<{name: string}>).slice(0, 4);
 
   return (
-    <footer className="border-t border-slate-200/80 bg-white/88 backdrop-blur">
-      <div className="mx-auto grid w-full max-w-6xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-[1.15fr_0.85fr_0.85fr]">
-        <div>
+    <footer className="relative mt-20 overflow-hidden border-t border-[#dbe4f1] bg-[linear-gradient(180deg,rgba(255,255,255,0.82),rgba(244,248,253,0.95))]">
+      <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[#8db0ff] to-transparent" />
+      <div className="pointer-events-none absolute left-1/2 top-0 h-72 w-72 -translate-x-1/2 rounded-full bg-[#cbdcff]/40 blur-3xl" />
+      <div className="mx-auto grid w-full max-w-6xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-[1.2fr_0.8fr_0.8fr]">
+        <div className="relative">
           <Label>{t("eyebrow")}</Label>
-          <div className="mt-5 rounded-[30px] border border-[#dbe7fb] bg-[#f8fbff] p-6 shadow-[0_20px_60px_rgba(145,177,233,0.12)]">
+          <div className="mt-5 rounded-[34px] border border-[#dbe4f1] bg-white/92 p-6 shadow-[0_24px_70px_rgba(122,142,176,0.1)]">
             <Image
               src="/logo.png"
               alt="NexSystems"
@@ -26,10 +30,9 @@ export async function Footer() {
         <div>
           <h4 className="text-xs font-semibold uppercase tracking-[0.24em] text-slate-900">{t("services")}</h4>
           <ul className="mt-4 space-y-3 text-sm text-slate-600">
-            <li>Auditoria Express</li>
-            <li>Web Estrategica</li>
-            <li>Web + Analytics</li>
-            <li>Plataformas empresariales</li>
+            {services.map((service) => (
+              <li key={service.name}>{service.name}</li>
+            ))}
           </ul>
         </div>
 
@@ -71,7 +74,7 @@ export async function Footer() {
         </div>
       </div>
 
-      <div className="border-t border-slate-200/80">
+      <div className="border-t border-[#dbe4f1]">
         <div className="mx-auto flex w-full max-w-6xl flex-col gap-2 px-4 py-6 text-xs text-slate-500 sm:flex-row sm:items-center sm:justify-between sm:px-6">
           <p>Copyright {new Date().getFullYear()} NexSystems. {t("legal")}</p>
           <div className="flex gap-4">
