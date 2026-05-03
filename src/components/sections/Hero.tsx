@@ -13,13 +13,6 @@ export function Hero() {
   const container = useRef<HTMLDivElement>(null);
 
   const trustItems = [t("trust_1"), t("trust_2"), t("trust_3")];
-  const metrics = [
-    {value: "01", label: t("metric_1")},
-    {value: "02", label: t("metric_2")},
-    {value: "03", label: t("metric_3")},
-    {value: "04", label: t("metric_4")},
-  ];
-
   useGSAP(
     () => {
       const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -87,16 +80,6 @@ export function Hero() {
             y: 22,
           },
           "-=0.4",
-        )
-        .from(
-          ".hero-metric",
-          {
-            autoAlpha: 0,
-            duration: 0.54,
-            stagger: 0.06,
-            y: 16,
-          },
-          "-=0.42",
         );
 
       return () => {
@@ -153,18 +136,6 @@ export function Hero() {
           <div className="relative z-10 lg:pl-4">
             <DashboardMock />
           </div>
-        </div>
-
-        <div className="glass-panel relative z-10 grid gap-3 rounded-[30px] p-3 sm:grid-cols-2 xl:grid-cols-4">
-          {metrics.map((metric) => (
-            <article
-              key={metric.label}
-              className="hero-metric rounded-[24px] border border-[#dfe8f5] bg-white/82 px-5 py-5"
-            >
-              <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[#3359a5]">{metric.value}</p>
-              <p className="mt-3 text-sm leading-6 text-slate-600">{metric.label}</p>
-            </article>
-          ))}
         </div>
       </div>
     </section>
