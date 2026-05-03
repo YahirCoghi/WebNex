@@ -5,7 +5,7 @@ import {getShowcaseProjects} from "@/lib/showcase";
 export async function Showcase() {
   const locale = (await getLocale()) === "en" ? "en" : "es";
   const t = await getTranslations("showcase");
-  const projects = (await getShowcaseProjects(locale)).slice(0, 3);
+  const projects = await getShowcaseProjects(locale);
 
   return (
     <ShowcaseClient

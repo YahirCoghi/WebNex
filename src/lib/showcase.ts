@@ -32,74 +32,75 @@ const owner = "YahirCoghi";
 
 const showcaseSeeds: ShowcaseSeed[] = [
   {
-    repo: "adopciones-kalo",
-    title: "Adopciones Kalo",
-    category: {
-      es: "CMS + experiencia social",
-      en: "CMS + social experience",
-    },
-    summary: {
-      es: "Portal de adopcion con gestion de contenido, flujo de solicitud y narrativa enfocada en accion.",
-      en: "Adoption portal with content management, application flow, and action-oriented storytelling.",
-    },
-    highlight: {
-      es: "Caso ideal para marcas con comunidad, contenido frecuente y conversion no tradicional.",
-      en: "A strong fit for community-driven brands, frequent content, and non-traditional conversion flows.",
-    },
-    stack: ["Astro", "Tailwind", "Decap CMS", "Netlify"],
-    liveUrl: "https://adopciones-kalo.netlify.app",
-  },
-  {
     repo: "Gold-Group",
-    title: "Gold Group",
+    title: "GoldGroupofficial",
     category: {
-      es: "Ecosistema deportivo y experiencia digital",
-      en: "Sports ecosystem and digital experience",
+      es: "Marca deportiva y presencia digital",
+      en: "Sports brand and digital presence",
     },
     summary: {
-      es: "Plataforma web con multiples modulos, narrativa institucional, formularios de contacto y arquitectura lista para crecer por lineas de negocio.",
-      en: "Web platform with multiple modules, institutional storytelling, contact flows, and an architecture built to scale by business line.",
+      es: "Sitio web para una marca deportiva con narrativa institucional, estructura comercial y rutas listas para crecer por lineas de negocio.",
+      en: "Website for a sports brand with institutional storytelling, commercial structure, and routes ready to scale by business line.",
     },
     highlight: {
-      es: "Demuestra capacidad para estructurar marcas complejas con secciones, rutas y conversiones mas alla de una landing tradicional.",
-      en: "Shows our ability to structure complex brands with sections, routes, and conversion flows beyond a traditional landing page.",
+      es: "Un proyecto que muestra como ordenamos marcas con varias iniciativas, contenido publico y puntos claros de contacto.",
+      en: "A project that shows how we organize brands with multiple initiatives, public content, and clear contact paths.",
     },
     stack: ["Next.js", "TypeScript", "Forms", "Vercel"],
     liveUrl: "https://gold-group.vercel.app/",
   },
   {
-    repo: "ERP",
-    title: "ERP",
+    repo: "hammmburguesas",
+    title: "Hammmburguesas",
     category: {
-      es: "Producto interno empresarial",
-      en: "Enterprise internal product",
+      es: "Restaurante y experiencia comercial",
+      en: "Restaurant and commercial experience",
     },
     summary: {
-      es: "Base de un ERP modular con logica de negocio, capas separadas y enfoque de operacion real.",
-      en: "Foundation for a modular ERP with business logic, clean layering, and real operational use in mind.",
+      es: "Experiencia web para restaurante enfocada en presentar la marca, facilitar la exploracion de la oferta y abrir contacto directo con clientes.",
+      en: "Restaurant web experience focused on presenting the brand, making the offer easy to explore, and opening direct contact with customers.",
     },
     highlight: {
-      es: "Aporta credibilidad tecnica cuando un cliente necesita algo mas profundo que una landing comercial.",
-      en: "Adds technical credibility when a client needs more than a commercial landing page.",
+      es: "Referencia de trabajo para negocios locales que necesitan una presencia digital clara, moderna y facil de usar.",
+      en: "A reference for local businesses that need a clear, modern, and easy-to-use digital presence.",
     },
-    stack: [".NET", "React", "API", "SQL"],
+    stack: ["Next.js", "TypeScript", "Tailwind", "Vercel"],
+    liveUrl: "https://hammmburguesas.vercel.app/",
   },
   {
-    repo: "NexSystem",
-    title: "NexSystem",
+    repo: "bloomclubcr",
+    title: "BloomClub",
     category: {
-      es: "Marca y software B2B",
-      en: "B2B brand and software",
+      es: "Ecommerce y catalogo wellness",
+      en: "Ecommerce and wellness catalog",
     },
     summary: {
-      es: "Exploracion de presencia corporativa para software, con foco en estructura comercial y propuesta de valor.",
-      en: "Corporate web exploration for software positioning, centered on commercial structure and value proposition.",
+      es: "Storefront para Bloom Club CR con catalogo de productos, filtros por categoria, detalle de producto y contacto directo por WhatsApp.",
+      en: "Storefront for Bloom Club CR with product catalog, category filters, product detail pages, and direct WhatsApp contact.",
     },
     highlight: {
-      es: "Sirve como referencia de como trabajamos marcas tecnicas con narrativa clara y ejecucion moderna.",
-      en: "A reference for how we build technical brands with clear narrative and modern execution.",
+      es: "Muestra capacidad para construir experiencias comerciales con contenido estructurado y flujo de compra consultiva.",
+      en: "Shows the ability to build commercial experiences with structured content and a consultative purchase flow.",
     },
-    stack: ["TypeScript", "Frontend", "Brand", "Vercel"],
+    stack: ["Next.js", "TypeScript", "Catalog", "WhatsApp"],
+    liveUrl: "https://bloomclubcr.com/",
+  },
+  {
+    repo: "facturacionSeminario",
+    title: "Sistema de facturacion para seminario",
+    category: {
+      es: "Sistema interno de facturacion",
+      en: "Internal billing system",
+    },
+    summary: {
+      es: "Sistema de facturacion desarrollado para el seminario, pensado para ordenar registros, procesos administrativos y control operativo.",
+      en: "Billing system developed for the seminar, designed to organize records, administrative processes, and operational control.",
+    },
+    highlight: {
+      es: "Evidencia trabajo mas alla de sitios publicos: soluciones internas que apoyan tareas reales del negocio.",
+      en: "Shows work beyond public websites: internal solutions that support real business operations.",
+    },
+    stack: ["Full-stack", "Facturacion", "Admin", "Procesos"],
   },
 ];
 

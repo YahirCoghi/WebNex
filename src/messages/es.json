@@ -114,12 +114,12 @@
     ]
   },
   "showcase": {
-    "eyebrow": "Trabajo publicado",
-    "title": "Algunos proyectos recientes",
-    "copy": "Una muestra breve del tipo de trabajo que ya hemos construido.",
-    "summary_projects": "proyectos seleccionados",
+    "eyebrow": "Trabajos realizados",
+    "title": "Proyectos que ya construimos",
+    "copy": "Una seleccion de trabajos reales: marcas comerciales, catalogos digitales y sistemas internos hechos para operar mejor.",
+    "summary_projects": "trabajos destacados",
     "summary_live": "sitios publicados",
-    "summary_stack": "tecnologías visibles",
+    "summary_stack": "areas tecnicas",
     "updated": "actualizado",
     "current": "vigente",
     "live": "Ver sitio",

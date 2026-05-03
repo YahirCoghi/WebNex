@@ -114,12 +114,12 @@
     ]
   },
   "showcase": {
-    "eyebrow": "Published work",
-    "title": "A few recent projects",
-    "copy": "A short sample of the kind of work we have already built.",
-    "summary_projects": "selected projects",
+    "eyebrow": "Completed work",
+    "title": "Projects we have already built",
+    "copy": "A selection of real work: commercial brands, digital catalogs, and internal systems built to operate better.",
+    "summary_projects": "featured projects",
     "summary_live": "published sites",
-    "summary_stack": "visible technologies",
+    "summary_stack": "technical areas",
     "updated": "updated",
     "current": "current",
     "live": "View site",
