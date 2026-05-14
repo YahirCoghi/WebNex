@@ -32,6 +32,24 @@ const owner = "YahirCoghi";
 
 const showcaseSeeds: ShowcaseSeed[] = [
   {
+    repo: "EcommercePizza",
+    title: "Fornaio",
+    category: {
+      es: "Ecommerce para restaurante artesanal",
+      en: "Artisan restaurant ecommerce",
+    },
+    summary: {
+      es: "Aplicacion full-stack para una pizzeria premium con menu filtrable, carrito persistente, confirmacion de pedidos y panel administrativo protegido.",
+      en: "Full-stack application for a premium pizzeria with a filterable menu, persistent cart, order confirmation, and protected admin panel.",
+    },
+    highlight: {
+      es: "Demuestra una experiencia comercial completa: vitrina editorial, flujo de compra, persistencia de pedidos y gestion interna desde admin.",
+      en: "Shows a complete commerce experience: editorial storefront, purchase flow, order persistence, and internal admin management.",
+    },
+    stack: ["Next.js", "TypeScript", "Ecommerce", "Admin"],
+    liveUrl: "https://fornaio.vercel.app/",
+  },
+  {
     repo: "Gold-Group",
     title: "GoldGroupofficial",
     category: {
