@@ -86,24 +86,6 @@ const showcaseSeeds: ShowcaseSeed[] = [
     liveUrl: "https://hammmburguesas.vercel.app/",
   },
   {
-    repo: "bloomclubcr",
-    title: "BloomClub",
-    category: {
-      es: "Ecommerce y catalogo wellness",
-      en: "Ecommerce and wellness catalog",
-    },
-    summary: {
-      es: "Storefront para Bloom Club CR con catalogo de productos, filtros por categoria, detalle de producto y contacto directo por WhatsApp.",
-      en: "Storefront for Bloom Club CR with product catalog, category filters, product detail pages, and direct WhatsApp contact.",
-    },
-    highlight: {
-      es: "Muestra capacidad para construir experiencias comerciales con contenido estructurado y flujo de compra consultiva.",
-      en: "Shows the ability to build commercial experiences with structured content and a consultative purchase flow.",
-    },
-    stack: ["Next.js", "TypeScript", "Catalog", "WhatsApp"],
-    liveUrl: "https://bloomclubcr.com/",
-  },
-  {
     repo: "facturacionSeminario",
     title: "Sistema de facturacion para seminario",
     category: {
