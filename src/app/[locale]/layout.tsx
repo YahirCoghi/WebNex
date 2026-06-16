@@ -17,13 +17,13 @@ const baseUrl = "https://www.nexsystems.org";
 
 const metadataByLocale: Record<AppLocale, Metadata> = {
   es: {
-    title: "NexSystems - Webs estrategicas para empresas | Costa Rica",
+    title: "NexSystems - Web, software y automatizacion para empresas",
     description:
-      "Disenamos sitios web corporativos y experiencias digitales enfocadas en claridad comercial, conversion y presencia profesional para empresas en Costa Rica.",
+      "Disenamos y desarrollamos web estrategica, software a medida y automatizacion para empresas que quieren crecer con mas orden.",
     openGraph: {
-      title: "NexSystems - Webs estrategicas para empresas",
+      title: "NexSystems - Web, software y automatizacion para empresas",
       description:
-        "Sitios web corporativos, funnels de contacto y presencia digital profesional para empresas que necesitan vender mejor.",
+        "Soluciones digitales para presencia web, gestion interna, ventas, clientes y automatizacion de procesos.",
       url: baseUrl,
       siteName: "NexSystems",
       locale: "es_CR",
@@ -32,13 +32,13 @@ const metadataByLocale: Record<AppLocale, Metadata> = {
     twitter: {card: "summary_large_image"},
   },
   en: {
-    title: "NexSystems - Strategic websites for growing companies",
+    title: "NexSystems - Web, software, and automation for companies",
     description:
-      "We design corporate websites and digital experiences focused on commercial clarity, conversion, and professional positioning for companies in Costa Rica.",
+      "We design and build strategic websites, custom software, and automation for companies that want to grow with more order.",
     openGraph: {
-      title: "NexSystems - Strategic websites for growing companies",
+      title: "NexSystems - Web, software, and automation for companies",
       description:
-        "Corporate websites, contact funnels, and polished digital positioning for companies that need to convert trust into opportunities.",
+        "Digital solutions for web presence, internal management, sales, clients, and process automation.",
       url: baseUrl,
       siteName: "NexSystems",
       locale: "en_US",
@@ -77,12 +77,22 @@ export default async function LocaleLayout({children, params}: Props) {
 
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": "ProfessionalService",
     name: "NexSystems",
-    description: "Strategic web design and digital experiences for Costa Rican companies.",
+    description: "Strategic web, custom software, and automation for companies that want to grow with more order.",
     url: baseUrl,
-    address: {"@type": "PostalAddress", addressCountry: "CR", addressLocality: "San Jose"},
-    serviceArea: {"@type": "Country", name: "Costa Rica"},
+    areaServed: {"@type": "Country", name: "Costa Rica"},
+    serviceType: ["Strategic web", "Custom software", "Automation", "Analytics"],
+    makesOffer: {
+      "@type": "OfferCatalog",
+      name: "Digital solutions",
+      itemListElement: [
+        {"@type": "Offer", itemOffered: {"@type": "Service", name: "Strategic web"}},
+        {"@type": "Offer", itemOffered: {"@type": "Service", name: "Custom software"}},
+        {"@type": "Offer", itemOffered: {"@type": "Service", name: "Automation and integrations"}},
+        {"@type": "Offer", itemOffered: {"@type": "Service", name: "Analytics and optimization"}},
+      ],
+    },
   };
 
   const gaId = process.env.NEXT_PUBLIC_GA4_ID?.trim();
@@ -97,10 +107,10 @@ export default async function LocaleLayout({children, params}: Props) {
 
       {hasValidGaId ? (
         <>
-          <Script src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`} strategy="beforeInteractive" />
+          <Script src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`} strategy="afterInteractive" />
           <Script
             id="ga4-config"
-            strategy="beforeInteractive"
+            strategy="afterInteractive"
             dangerouslySetInnerHTML={{
               __html: `
                 window.dataLayer = window.dataLayer || [];

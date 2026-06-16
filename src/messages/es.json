@@ -1,122 +1,177 @@
-﻿{
+{
   "meta": {
-    "title": "NexSystems - Webs estratégicas para empresas | Costa Rica",
-    "description": "Diseñamos sitios web corporativos y experiencias digitales enfocadas en claridad comercial, conversión y presencia profesional para empresas en Costa Rica."
+    "title": "NexSystems - Web, software y automatizacion para empresas",
+    "description": "Disenamos y desarrollamos web estrategica, software a medida y automatizacion para empresas que quieren crecer con mas orden y mejores procesos."
   },
   "nav": {
     "services": "Servicios",
+    "solutions": "Soluciones",
     "work": "Proyectos",
     "about": "Nosotros",
     "process": "Proceso",
-    "audit": "Auditoría Gratis",
+    "audit": "Diagnostico",
     "cta": "Hablemos",
-    "menu": "Menú"
+    "menu": "Menu"
   },
   "hero": {
-    "eyebrow": "Web estratégica para empresas • Costa Rica",
-    "h1_line1": "Diseñamos webs que elevan tu marca",
-    "h1_em": "y convierten mejor.",
-    "sub": "Creamos sitios claros, modernos y profesionales para que tu empresa se vea mejor y genere más contactos.",
-    "mini": "Menos ruido. Más claridad, confianza y conversión.",
-    "cta_wa": "WhatsApp directo",
-    "cta_audit": "Solicitar auditoría",
-    "trust_1": "Mensaje, estructura y diseño alineados a tu propuesta comercial.",
-    "trust_2": "Experiencia clara en desktop y móvil para transmitir más confianza.",
-    "trust_3": "Formulario, WhatsApp y analítica listos para medir oportunidades.",
-    "metric_1": "Sesiones",
-    "metric_2": "Usuarios",
-    "metric_3": "Eventos",
-    "metric_4": "Engagement",
-    "organic": "Tráfico orgánico",
-    "panel_title": "Vista general",
-    "panel_badge": "Presentación premium",
-    "panel_sub": "Una web bien hecha ordena tu oferta y hace más fácil que un cliente te contacte.",
-    "panel_item_1_title": "Mensaje claro",
-    "panel_item_1_desc": "Tu propuesta se entiende rápido y sin rodeos.",
-    "panel_item_2_title": "Diseño profesional",
-    "panel_item_2_desc": "Una presentación limpia que transmite más confianza.",
-    "panel_item_3_title": "Contacto directo",
-    "panel_item_3_desc": "WhatsApp, formularios y seguimiento listos para operar.",
-    "panel_coverage": "Cobertura de implementación",
-    "panel_track_1": "Oferta y posicionamiento",
-    "panel_track_2": "Experiencia y SEO",
-    "panel_track_3": "Contacto y tracking"
+    "eyebrow": "Web, software y automatizacion • Costa Rica",
+    "h1_line1": "Soluciones digitales para empresas",
+    "h1_em": "que quieren crecer.",
+    "sub": "Creamos webs estrategicas, software a medida y automatizaciones para ordenar tu operacion, captar mejores oportunidades y reducir trabajo manual.",
+    "mini": "Estrategia, diseno y desarrollo conectados al negocio.",
+    "cta_wa": "Hablar por WhatsApp",
+    "cta_audit": "Ver soluciones",
+    "trust_1": "Web estrategica para explicar tu oferta y abrir conversaciones de negocio.",
+    "trust_2": "Software a medida para ordenar ventas, clientes, reservas o procesos internos.",
+    "trust_3": "Automatizacion e integraciones para reducir tareas repetitivas y dar seguimiento.",
+    "metric_1": "Oportunidades",
+    "metric_2": "Clientes",
+    "metric_3": "Procesos",
+    "metric_4": "Seguimiento",
+    "organic": "Flujo comercial",
+    "panel_title": "Operacion conectada",
+    "panel_badge": "Ecosistema digital",
+    "panel_sub": "Una solucion bien pensada conecta presencia digital, operacion interna y seguimiento comercial.",
+    "panel_item_1_title": "Ventas y clientes",
+    "panel_item_1_desc": "Centraliza consultas, formularios, oportunidades y proximo paso comercial.",
+    "panel_item_2_title": "Procesos internos",
+    "panel_item_2_desc": "Menos hojas sueltas y mas informacion disponible para decidir.",
+    "panel_item_3_title": "Automatizacion",
+    "panel_item_3_desc": "Recordatorios, notificaciones e integraciones listas para operar.",
+    "panel_coverage": "Cobertura de implementacion",
+    "panel_track_1": "Entrada",
+    "panel_track_2": "Gestion",
+    "panel_track_3": "Seguimiento"
   },
   "stats": {
-    "a": "Diagnóstico comercial",
-    "b": "Dirección visual",
-    "c": "Implementación técnica",
+    "a": "Diagnostico digital",
+    "b": "Arquitectura de solucion",
+    "c": "Implementacion tecnica",
     "d": "Lanzamiento medible"
   },
   "problem": {
-    "eyebrow": "Qué suele fallar",
-    "title": "Muchas empresas sí tienen web. Pocas tienen una web que venda mejor.",
-    "subtitle": "Cuando el sitio no explica la propuesta, no transmite confianza o no facilita el contacto, termina siendo una presencia digital sin retorno.",
+    "eyebrow": "Lo que bloquea el crecimiento",
+    "title": "Muchas empresas crecen con herramientas desconectadas, procesos manuales y una web que no sostiene la operacion.",
+    "subtitle": "Cuando la presencia digital, las ventas y la gestion interna no trabajan juntas, el equipo pierde tiempo, oportunidades y visibilidad.",
     "cards": [
       {
-        "title": "Mensaje poco claro",
-        "desc": "El visitante entra y no entiende en pocos segundos por qué tu empresa es la opción correcta."
+        "title": "La web no explica todo lo que haces",
+        "desc": "Tu empresa puede ofrecer mas que una pagina bonita, pero el visitante no entiende rapido tus soluciones ni el siguiente paso."
       },
       {
-        "title": "Diseño que no transmite nivel",
-        "desc": "Una interfaz confusa o desactualizada reduce confianza antes de que empiece la conversación comercial."
+        "title": "Reservas, ventas o clientes viven dispersos",
+        "desc": "WhatsApp, hojas de calculo, correos y formularios quedan separados, lo que vuelve dificil dar seguimiento."
       },
       {
-        "title": "Sin camino a contacto",
-        "desc": "No hay CTA visibles, el formulario no ayuda o WhatsApp queda perdido dentro de la página."
+        "title": "Demasiadas tareas repetitivas",
+        "desc": "Confirmaciones, recordatorios, reportes y respuestas manuales consumen tiempo que podria usarse en vender u operar mejor."
       },
       {
-        "title": "Experiencia móvil débil",
-        "desc": "La mayoría de visitas llega desde celular, y ahí es donde más rápido se pierde credibilidad."
+        "title": "Sin datos claros para decidir",
+        "desc": "Si no sabes de donde vienen las oportunidades ni que proceso se atasca, optimizar se vuelve intuicion."
       },
       {
-        "title": "Cero aprendizaje",
-        "desc": "Sin eventos ni analítica no sabes qué contenido genera interés ni qué parte del sitio bloquea la conversión."
+        "title": "La tecnologia no escala con el negocio",
+        "desc": "Lo que resolvia al inicio empieza a quedarse corto cuando hay mas clientes, mas servicios o mas equipo."
       }
     ]
   },
   "services": {
-    "eyebrow": "Servicios",
-    "title": "Qué podemos construir para tu empresa",
-    "copy": "Soluciones web enfocadas en presencia profesional y generación de contactos.",
-    "popular": "Más solicitado",
-    "enterprise": "Escalable",
-    "from": "desde",
+    "eyebrow": "Lineas de servicio",
+    "title": "Web, software y automatizacion en una misma direccion",
+    "copy": "Construimos soluciones digitales a medida segun la etapa, operacion y objetivos de cada empresa. Cada alcance se define segun la necesidad real del negocio.",
     "items": [
       {
         "id": "01",
-        "name": "Auditoría Express",
-        "desc": "Diagnóstico rápido de tu sitio actual con hallazgos claros y prioridades accionables.",
-        "price": "$50 USD",
-        "features": ["Revisión UX + conversión", "Checklist SEO técnico", "Plan de mejora de 7 días"]
+        "name": "Web estrategica",
+        "tag": "Presencia y conversion",
+        "desc": "Sitios, landing pages y experiencias digitales que explican mejor tu oferta y facilitan el contacto.",
+        "features": ["Arquitectura de contenido", "Copy orientado a negocio", "CTA, WhatsApp, formularios y analitica"]
       },
       {
         "id": "02",
-        "name": "Web Estratégica",
-        "desc": "Sitio corporativo orientado a generar confianza y abrir conversaciones de negocio.",
-        "price": "$300 USD",
-        "features": ["Arquitectura y copy persuasivo", "Diseño mobile-first", "CTA a WhatsApp y formulario integrados"]
+        "name": "Software a medida",
+        "tag": "Operacion y control",
+        "desc": "Aplicaciones internas, portales y paneles que ayudan a gestionar clientes, ventas, reservas o informacion critica.",
+        "features": ["Flujos adaptados a tu proceso", "Paneles administrativos", "Base tecnica preparada para crecer"]
       },
       {
         "id": "03",
-        "name": "Web + Analytics Completo",
-        "desc": "Implementación integral con trazabilidad para entender qué canal y qué página generan oportunidades.",
-        "price": "$400 USD",
-        "features": ["Dashboard de métricas clave", "Eventos GA4 y conversiones", "Acompañamiento de optimización inicial"]
+        "name": "Automatizacion e integraciones",
+        "tag": "Menos trabajo manual",
+        "desc": "Conectamos herramientas y automatizamos pasos repetitivos para que el equipo avance con menos friccion.",
+        "features": ["Notificaciones y recordatorios", "Integracion entre formularios, email y hojas", "Flujos de seguimiento comercial"]
       },
       {
         "id": "04",
-        "name": "Web Empresarial Escalable",
-        "desc": "Plataforma web preparada para crecer con backend robusto, procesos internos y servicios cloud.",
-        "price": "a cotizar",
-        "features": ["Arquitectura full-stack empresarial", "Base de datos en Azure o AWS", "Seguridad, roles y despliegue continuo"]
+        "name": "Analitica y optimizacion",
+        "tag": "Mejores decisiones",
+        "desc": "Medicion y lectura de datos para entender que canal, pagina o proceso genera oportunidades reales.",
+        "features": ["Eventos y conversiones", "Reportes de oportunidades", "Prioridades de mejora"]
+      }
+    ]
+  },
+  "solutions": {
+    "eyebrow": "Casos de uso",
+    "title": "Soluciones que NexSystems puede desarrollar para tu empresa",
+    "copy": "Partimos de necesidades reales: captar, vender, reservar, atender, ordenar y automatizar. Cada solucion se define segun tu operacion, sin prometer productos cerrados.",
+    "need_label": "Necesidad",
+    "result_label": "Resultado esperado",
+    "items": [
+      {
+        "id": "01",
+        "title": "Reservas y citas",
+        "description": "Flujos para negocios que necesitan agendar servicios, confirmar horarios y reducir coordinacion manual.",
+        "need": "Ordenar disponibilidad, solicitudes y confirmaciones.",
+        "result": "Menos idas y vueltas por chat y una agenda mas clara.",
+        "features": ["Formulario o portal de reservas", "Confirmaciones y recordatorios", "Panel para revisar solicitudes"]
+      },
+      {
+        "id": "02",
+        "title": "Entradas y eventos",
+        "description": "Experiencias para promocionar eventos, recibir registros o vender accesos segun el modelo comercial.",
+        "need": "Centralizar registro, informacion del evento y seguimiento.",
+        "result": "Un flujo mas profesional para captar asistentes y administrar demanda.",
+        "features": ["Landing del evento", "Registro o solicitud de entrada", "Listado de asistentes"]
+      },
+      {
+        "id": "03",
+        "title": "Ventas y clientes",
+        "description": "Sistemas simples para recibir oportunidades, clasificar clientes y dar seguimiento sin perder contexto.",
+        "need": "Saber que oportunidad entro, en que estado esta y quien debe responder.",
+        "result": "Mayor orden comercial y menos oportunidades olvidadas.",
+        "features": ["Captura de leads", "Estados de seguimiento", "Notificaciones al equipo"]
+      },
+      {
+        "id": "04",
+        "title": "Academias y membresias",
+        "description": "Portales para organizar informacion, accesos, pagos o comunicacion con estudiantes y miembros.",
+        "need": "Administrar comunidad, contenidos o solicitudes recurrentes.",
+        "result": "Una experiencia mas ordenada para miembros y administradores.",
+        "features": ["Portal de usuarios", "Gestion de inscripciones", "Comunicaciones automatizadas"]
+      },
+      {
+        "id": "05",
+        "title": "Portal de clientes",
+        "description": "Espacios privados para compartir documentos, avances, solicitudes o informacion de servicio.",
+        "need": "Reducir correos dispersos y dar visibilidad a cada cliente.",
+        "result": "Mas claridad en la relacion y menos seguimiento manual.",
+        "features": ["Acceso seguro", "Historial de solicitudes", "Panel de administracion"]
+      },
+      {
+        "id": "06",
+        "title": "Automatizacion",
+        "description": "Flujos que conectan herramientas, envian avisos y eliminan pasos repetitivos en la operacion.",
+        "need": "Hacer que la informacion avance sin depender de copiar y pegar.",
+        "result": "Procesos mas rapidos, trazables y faciles de supervisar.",
+        "features": ["Integraciones entre herramientas", "Alertas internas", "Reportes automatizados"]
       }
     ]
   },
   "showcase": {
     "eyebrow": "Trabajos realizados",
-    "title": "Proyectos que ya construimos",
-    "copy": "Una seleccion de trabajos reales: marcas comerciales, catalogos digitales y sistemas internos hechos para operar mejor.",
+    "title": "Proyectos que muestran capacidad para web, software y operacion digital",
+    "copy": "Una seleccion de trabajos reales: marcas comerciales, catalogos digitales y sistemas internos hechos para operar con mas claridad.",
     "summary_projects": "trabajos destacados",
     "summary_live": "sitios publicados",
     "summary_stack": "areas tecnicas",
@@ -126,58 +181,86 @@
     "repo": "Ver repo"
   },
   "why": {
-    "eyebrow": "Por qué NexSystems",
-    "title": "Una ejecución más clara, más directa y más enfocada en negocio",
-    "copy": "Estamos en etapa de lanzamiento como marca, pero ya trabajamos con una lógica seria: estructura comercial, calidad técnica y atención directa para empresas que necesitan verse mejor y vender con más orden.",
+    "eyebrow": "Por que NexSystems",
+    "title": "Una ejecucion directa para construir soluciones utiles, no solo pantallas bonitas",
+    "copy": "Estamos en etapa de lanzamiento como marca, pero trabajamos con criterio de negocio, estructura tecnica y atencion directa para empresas que necesitan crecer con mas orden.",
     "cards": [
-      {"title": "Atención directa", "desc": "Hablas con quien define la estructura, el diseño y la implementación."},
-      {"title": "Criterio comercial", "desc": "No diseñamos solo para que se vea bien, sino para que el sitio te ayude a vender mejor."},
-      {"title": "Base moderna", "desc": "Trabajamos con stack actual, buen rendimiento y una arquitectura lista para crecer."},
-      {"title": "Pensamiento a largo plazo", "desc": "Lo que lanzamos hoy deja base para sumar analítica, automatización y nuevas secciones después."}
+      {"title": "Atencion directa", "desc": "Hablas con quien define estructura, diseno y desarrollo."},
+      {"title": "Criterio comercial", "desc": "Cada decision debe ayudar a captar, ordenar o automatizar mejor."},
+      {"title": "Base moderna", "desc": "Trabajamos con stack actual, buen rendimiento y arquitectura preparada para evolucionar."},
+      {"title": "Pensamiento a largo plazo", "desc": "Lo que lanzamos deja base para sumar integraciones, datos y nuevas funciones."}
     ]
   },
   "process": {
     "eyebrow": "Proceso",
-    "title": "Un proceso claro, sin fricción innecesaria",
-    "subtitle": "Trabajamos con una secuencia simple para que la web avance con criterio, foco y decisiones bien sustentadas.",
+    "title": "De necesidad de negocio a solucion digital operando",
+    "subtitle": "Trabajamos con una secuencia clara para entender el problema, priorizar lo importante y construir sin inventar complejidad.",
     "steps": [
-      {"title": "Discovery", "desc": "Entendemos negocio, propuesta de valor, objeciones y público al que realmente quieres llegar."},
-      {"title": "Arquitectura", "desc": "Ordenamos secciones, copy, narrativa y CTA para que la experiencia tenga intención comercial."},
-      {"title": "Producción", "desc": "Diseñamos y desarrollamos una interfaz limpia, rápida y adaptable a móvil desde el inicio."},
-      {"title": "Lanzamiento", "desc": "Publicamos, configuramos tracking y dejamos lista la base para iterar con datos reales."}
+      {"title": "Diagnostico", "desc": "Entendemos objetivos, proceso actual, canales, restricciones y oportunidades de mejora."},
+      {"title": "Mapa de solucion", "desc": "Definimos alcance, flujo principal, datos necesarios, integraciones y criterios de exito."},
+      {"title": "Diseno y prototipo", "desc": "Ordenamos la experiencia, los mensajes y las pantallas clave antes de desarrollar."},
+      {"title": "Desarrollo", "desc": "Construimos la web, sistema o automatizacion con foco en rendimiento, claridad y mantenimiento."},
+      {"title": "Lanzamiento y mejora", "desc": "Publicamos, medimos, ajustamos y dejamos prioridades para la siguiente iteracion."}
     ]
   },
   "lead": {
-    "eyebrow": "Auditoría inicial",
-    "title": "Solicitá una auditoría rápida de tu sitio",
-    "subtitle": "Te compartimos una revisión breve con oportunidades claras para mejorar tu web.",
-    "benefits": ["Respuesta en menos de 24 horas hábiles", "Recomendaciones claras", "Sin compromiso comercial"],
+    "eyebrow": "Diagnostico inicial",
+    "title": "Contanos que necesitas construir u optimizar",
+    "subtitle": "Te respondemos con una lectura inicial de oportunidad, alcance probable y proximos pasos.",
+    "benefits": ["Revision orientada a negocio", "Prioridades claras para decidir", "Sin compromiso comercial"],
     "name": "Nombre",
     "email": "Email",
-    "url": "URL de tu web actual",
-    "submit": "Solicitar auditoría",
+    "company": "Empresa",
+    "url": "URL actual (opcional)",
+    "solution_type": "Tipo de solucion",
+    "solution_placeholder": "Selecciona una opcion",
+    "solution_options": [
+      {"value": "booking_appointments", "label": "Reservas o citas"},
+      {"value": "ticketing_events", "label": "Entradas o eventos"},
+      {"value": "sales_clients", "label": "Ventas y clientes"},
+      {"value": "academies_memberships", "label": "Academias o membresias"},
+      {"value": "client_portal", "label": "Portal de clientes"},
+      {"value": "automation", "label": "Automatizacion"},
+      {"value": "website_ecommerce", "label": "Web estrategica o ecommerce"},
+      {"value": "custom_system", "label": "Sistema a medida"},
+      {"value": "not_sure", "label": "No estoy seguro todavia"}
+    ],
+    "message": "Que necesitas resolver",
+    "message_placeholder": "Cuéntanos que proceso quieres ordenar, automatizar o mejorar.",
+    "submit": "Solicitar diagnostico",
     "sending": "Enviando...",
     "success": "Listo. Recibimos tu solicitud y te escribimos pronto.",
-    "error": "No pudimos enviar el formulario. Inténtalo de nuevo."
+    "error": "No pudimos enviar el formulario. Intentalo de nuevo."
   },
   "ctaFinal": {
-    "title": "Si tu web actual no refleja el nivel de tu empresa, podemos rehacerla.",
-    "subtitle": "Diseño más claro, mejor presencia y un contacto más directo.",
+    "title": "Si tu operacion digital necesita mas que una web, podemos ayudarte a estructurar el siguiente paso.",
+    "subtitle": "Web estrategica, software a medida y automatizacion con foco en negocio.",
     "wa": "WhatsApp",
-    "audit": "Auditoría gratis"
+    "audit": "Diagnostico"
   },
   "footer": {
     "eyebrow": "NexSystems",
-    "desc": "Diseñamos experiencias web que ayudan a empresas a verse mejor, comunicar con claridad y generar más oportunidades.",
-    "services": "Servicios",
+    "desc": "Desarrollamos web estrategica, software a medida y automatizacion para empresas que quieren crecer con mas orden.",
+    "links_title": "Navegacion",
     "contact": "Contacto",
     "legal": "Todos los derechos reservados.",
     "privacy": "Privacidad",
-    "terms": "Términos"
+    "terms": "Terminos",
+    "whatsapp": "WhatsApp",
+    "links": [
+      {"label": "Soluciones", "href": "#solutions"},
+      {"label": "Proceso", "href": "#process"},
+      {"label": "Proyectos", "href": "#showcase"},
+      {"label": "Diagnostico", "href": "#leadmagnet"}
+    ]
   },
   "validation": {
     "name_min": "El nombre debe tener al menos 2 caracteres.",
-    "email_invalid": "Ingresa un email válido.",
-    "url_invalid": "Ingresa una URL válida (incluye https://)."
+    "email_invalid": "Ingresa un email valido.",
+    "company_min": "La empresa debe tener al menos 2 caracteres.",
+    "url_invalid": "Ingresa una URL valida (incluye https://).",
+    "solution_type_required": "Selecciona el tipo de solucion.",
+    "message_min": "Cuéntanos un poco mas para entender la necesidad.",
+    "message_max": "El mensaje no debe superar 1200 caracteres."
   }
 }

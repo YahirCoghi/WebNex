@@ -1,14 +1,25 @@
 ﻿"use client";
 
 import Link from "next/link";
-import {ButtonHTMLAttributes, ReactNode} from "react";
+import type {AnchorHTMLAttributes, ButtonHTMLAttributes, ReactNode} from "react";
 
-type ButtonProps = {
+type ButtonBaseProps = {
   children: ReactNode;
-  href?: string;
   variant?: "primary" | "outline" | "ghost";
   className?: string;
-} & ButtonHTMLAttributes<HTMLButtonElement>;
+};
+
+type LinkButtonProps = ButtonBaseProps &
+  Omit<AnchorHTMLAttributes<HTMLAnchorElement>, "href"> & {
+    href: string;
+  };
+
+type NativeButtonProps = ButtonBaseProps &
+  ButtonHTMLAttributes<HTMLButtonElement> & {
+    href?: undefined;
+  };
+
+type ButtonProps = LinkButtonProps | NativeButtonProps;
 
 const baseClasses =
   "inline-flex items-center justify-center rounded-full border px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.18em] transition-[transform,background-color,border-color,color,box-shadow] duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#7fa6ff]/60 focus-visible:ring-offset-2";
@@ -21,31 +32,34 @@ const variantClasses: Record<NonNullable<ButtonProps["variant"]>, string> = {
   ghost: "border-transparent bg-transparent text-slate-600 hover:text-slate-950",
 };
 
-export function Button({
-  children,
-  href,
-  variant = "primary",
-  className = "",
-  ...props
-}: ButtonProps) {
+function isLinkButtonProps(props: ButtonProps): props is LinkButtonProps {
+  return typeof props.href === "string";
+}
+
+export function Button(props: ButtonProps) {
+  const {children, variant = "primary", className = ""} = props;
   const classes = `${baseClasses} ${variantClasses[variant]} ${className}`.trim();
 
-  if (href) {
+  if (isLinkButtonProps(props)) {
+    const {href, target, rel, children: _children, variant: _variant, className: _className, ...linkProps} = props;
     const external = href.startsWith("http");
     return (
       <Link
+        {...linkProps}
         className={classes}
         href={href}
-        target={external ? "_blank" : undefined}
-        rel={external ? "noopener noreferrer" : undefined}
+        target={external ? target ?? "_blank" : target}
+        rel={external ? rel ?? "noopener noreferrer" : rel}
       >
         {children}
       </Link>
     );
   }
 
+  const {children: _children, variant: _variant, className: _className, href: _href, ...buttonProps} = props;
+
   return (
-    <button className={classes} {...props}>
+    <button className={classes} {...buttonProps}>
       {children}
     </button>
   );

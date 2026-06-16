@@ -127,7 +127,7 @@ export function ShowcaseClient({locale, projects, strings}: ShowcaseClientProps)
 
                 <div className="rounded-[24px] border border-[#dbe4f1] bg-[#f9fbff] px-5 py-4 text-sm text-slate-600">
                   <p>
-                    <span className="font-semibold text-slate-900">{project.language}</span> ·{" "}
+                    <span className="font-semibold text-slate-900">{project.language}</span> -{" "}
                     {project.updatedAt ? `${strings.updated} ${formatter.format(new Date(project.updatedAt))}` : strings.current}
                   </p>
                 </div>

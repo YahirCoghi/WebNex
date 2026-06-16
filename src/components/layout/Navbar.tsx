@@ -4,11 +4,12 @@ import Image from "next/image";
 import Link from "next/link";
 import {useLocale, useTranslations} from "next-intl";
 import {usePathname} from "next/navigation";
-import {useEffect, useMemo, useState} from "react";
+import {useEffect, useId, useMemo, useState} from "react";
 import {Button} from "../ui/Button";
 
 const sections = [
-  {key: "services", href: "#services"},
+  {key: "solutions", href: "#solutions"},
+  {key: "process", href: "#process"},
   {key: "work", href: "#showcase"},
   {key: "audit", href: "#leadmagnet"},
 ] as const;
@@ -26,6 +27,7 @@ export function Navbar() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const menuId = useId();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -93,13 +95,18 @@ export function Navbar() {
           className="inline-flex items-center rounded-full border border-[#ced8e8] bg-white/88 px-4 py-2 text-sm font-medium text-slate-700 shadow-[0_12px_30px_rgba(146,173,222,0.12)] backdrop-blur lg:hidden"
           onClick={() => setOpen((value) => !value)}
           aria-label={t("menu")}
+          aria-controls={menuId}
+          aria-expanded={open}
         >
           {t("menu")}
         </button>
       </div>
 
       {open && (
-        <div className="mx-auto mt-3 w-full max-w-6xl rounded-[28px] border border-white/80 bg-white/92 p-4 shadow-[0_24px_70px_rgba(110,130,165,0.16)] backdrop-blur lg:hidden">
+        <div
+          id={menuId}
+          className="mx-auto mt-3 w-full max-w-6xl rounded-[28px] border border-white/80 bg-white/92 p-4 shadow-[0_24px_70px_rgba(110,130,165,0.16)] backdrop-blur lg:hidden"
+        >
           <div className="flex flex-col gap-3">
             {sections.map((section) => (
               <Link

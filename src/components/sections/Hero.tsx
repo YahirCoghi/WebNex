@@ -116,7 +116,7 @@ export function Hero() {
               <Button className="hero-action" href={`https://wa.me/${waNumber}`}>
                 {t("cta_wa")}
               </Button>
-              <Button className="hero-action" href="#leadmagnet" variant="outline">
+              <Button className="hero-action" href="#solutions" variant="outline">
                 {t("cta_audit")} -&gt;
               </Button>
             </div>

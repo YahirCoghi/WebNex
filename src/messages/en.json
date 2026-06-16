@@ -1,122 +1,177 @@
-﻿{
+{
   "meta": {
-    "title": "NexSystems - Strategic websites for companies | Costa Rica",
-    "description": "We design corporate websites and digital experiences focused on commercial clarity, conversion, and professional positioning for companies in Costa Rica."
+    "title": "NexSystems - Web, software, and automation for companies",
+    "description": "We design and build strategic websites, custom software, and automation for companies that want to grow with more order and better processes."
   },
   "nav": {
     "services": "Services",
+    "solutions": "Solutions",
     "work": "Projects",
     "about": "About",
     "process": "Process",
-    "audit": "Free Audit",
+    "audit": "Diagnosis",
     "cta": "Let's Talk",
     "menu": "Menu"
   },
   "hero": {
-    "eyebrow": "Strategic web design for companies • Costa Rica",
-    "h1_line1": "We design websites that elevate your brand",
-    "h1_em": "and convert better.",
-    "sub": "We build clear, modern, professional websites that help your company look better and generate more inquiries.",
-    "mini": "Less noise. More clarity, trust, and conversion.",
-    "cta_wa": "Direct WhatsApp",
-    "cta_audit": "Request audit",
-    "trust_1": "Messaging, structure, and design aligned with your commercial offer.",
-    "trust_2": "Clear desktop and mobile experience that builds stronger trust.",
-    "trust_3": "Forms, WhatsApp, and analytics ready to measure real opportunities.",
-    "metric_1": "Sessions",
-    "metric_2": "Users",
-    "metric_3": "Events",
-    "metric_4": "Engagement",
-    "organic": "Organic traffic",
-    "panel_title": "Overview",
-    "panel_badge": "Premium presentation",
-    "panel_sub": "A well-made website organizes your offer and makes it easier for clients to contact you.",
-    "panel_item_1_title": "Clear message",
-    "panel_item_1_desc": "Your offer is easy to understand, fast.",
-    "panel_item_2_title": "Professional design",
-    "panel_item_2_desc": "A cleaner presentation that builds more trust.",
-    "panel_item_3_title": "Direct contact",
-    "panel_item_3_desc": "WhatsApp, forms, and tracking ready to work.",
+    "eyebrow": "Web, software, and automation • Costa Rica",
+    "h1_line1": "Digital solutions for companies",
+    "h1_em": "that want to grow.",
+    "sub": "We create strategic websites, custom software, and automations that organize your operation, capture better opportunities, and reduce manual work.",
+    "mini": "Strategy, design, and development connected to the business.",
+    "cta_wa": "Talk on WhatsApp",
+    "cta_audit": "View solutions",
+    "trust_1": "Strategic websites that explain your offer and open business conversations.",
+    "trust_2": "Custom software to organize sales, clients, bookings, or internal processes.",
+    "trust_3": "Automation and integrations to reduce repetitive tasks and improve follow-up.",
+    "metric_1": "Opportunities",
+    "metric_2": "Clients",
+    "metric_3": "Processes",
+    "metric_4": "Follow-up",
+    "organic": "Commercial flow",
+    "panel_title": "Connected operation",
+    "panel_badge": "Digital ecosystem",
+    "panel_sub": "A well-planned solution connects digital presence, internal operation, and commercial follow-up.",
+    "panel_item_1_title": "Sales and clients",
+    "panel_item_1_desc": "Centralize inquiries, forms, opportunities, and the next commercial step.",
+    "panel_item_2_title": "Internal processes",
+    "panel_item_2_desc": "Less scattered spreadsheets and more information available to decide.",
+    "panel_item_3_title": "Automation",
+    "panel_item_3_desc": "Reminders, notifications, and integrations ready to operate.",
     "panel_coverage": "Implementation coverage",
-    "panel_track_1": "Offer and positioning",
-    "panel_track_2": "Experience and SEO",
-    "panel_track_3": "Contact and tracking"
+    "panel_track_1": "Intake",
+    "panel_track_2": "Management",
+    "panel_track_3": "Follow-up"
   },
   "stats": {
-    "a": "Commercial diagnosis",
-    "b": "Visual direction",
+    "a": "Digital diagnosis",
+    "b": "Solution architecture",
     "c": "Technical implementation",
     "d": "Measurable launch"
   },
   "problem": {
-    "eyebrow": "Where things usually fail",
-    "title": "Many companies do have a website. Very few have one that helps them sell better.",
-    "subtitle": "When a website does not explain the offer, does not build trust, or does not make contact easy, it becomes digital presence with little return.",
+    "eyebrow": "What blocks growth",
+    "title": "Many companies grow with disconnected tools, manual processes, and a website that does not support the operation.",
+    "subtitle": "When digital presence, sales, and internal management do not work together, the team loses time, opportunities, and visibility.",
     "cards": [
       {
-        "title": "Unclear message",
-        "desc": "Visitors arrive and cannot understand in a few seconds why your company is the right choice."
+        "title": "The website does not explain everything you do",
+        "desc": "Your company may offer more than a nice page, but visitors cannot quickly understand your solutions or next step."
       },
       {
-        "title": "Design that lacks authority",
-        "desc": "A confusing or outdated interface reduces trust before the commercial conversation even starts."
+        "title": "Bookings, sales, or clients are scattered",
+        "desc": "WhatsApp, spreadsheets, emails, and forms stay disconnected, making follow-up harder."
       },
       {
-        "title": "No clear contact path",
-        "desc": "There are no visible CTAs, the form does not help, or WhatsApp is buried inside the page."
+        "title": "Too many repetitive tasks",
+        "desc": "Confirmations, reminders, reports, and manual replies consume time that could be used to sell or operate better."
       },
       {
-        "title": "Weak mobile experience",
-        "desc": "Most visits happen on mobile, and that is where credibility gets lost the fastest."
+        "title": "No clear data to decide",
+        "desc": "If you do not know where opportunities come from or which process gets stuck, optimization becomes guesswork."
       },
       {
-        "title": "No learning loop",
-        "desc": "Without events or analytics, you cannot tell which content creates interest or where conversion gets blocked."
+        "title": "Technology does not scale with the business",
+        "desc": "What solved things at the beginning starts falling short when there are more clients, more services, or a larger team."
       }
     ]
   },
   "services": {
-    "eyebrow": "Services",
-    "title": "What we can build for your company",
-    "copy": "Web solutions focused on professional presence and lead generation.",
-    "popular": "Most requested",
-    "enterprise": "Scalable",
-    "from": "from",
+    "eyebrow": "Service lines",
+    "title": "Web, software, and automation moving in the same direction",
+    "copy": "We build digital solutions around each company's stage, operation, and goals. Each scope is defined around the real business need.",
     "items": [
       {
         "id": "01",
-        "name": "Express Audit",
-        "desc": "Fast review of your current website with clear findings and actionable priorities.",
-        "price": "$50 USD",
-        "features": ["UX + conversion review", "Technical SEO checklist", "7-day improvement roadmap"]
+        "name": "Strategic web",
+        "tag": "Presence and conversion",
+        "desc": "Websites, landing pages, and digital experiences that explain your offer better and make contact easier.",
+        "features": ["Content architecture", "Business-oriented copy", "CTAs, WhatsApp, forms, and analytics"]
       },
       {
         "id": "02",
-        "name": "Strategic Website",
-        "desc": "Corporate website designed to build trust and open real business conversations.",
-        "price": "$300 USD",
-        "features": ["Information architecture + persuasive copy", "Mobile-first design", "Integrated WhatsApp and form CTAs"]
+        "name": "Custom software",
+        "tag": "Operation and control",
+        "desc": "Internal apps, portals, and dashboards that help manage clients, sales, bookings, or critical information.",
+        "features": ["Flows adapted to your process", "Admin dashboards", "Technical foundation prepared to grow"]
       },
       {
         "id": "03",
-        "name": "Website + Full Analytics",
-        "desc": "End-to-end implementation with visibility into which channel and page generate opportunities.",
-        "price": "$400 USD",
-        "features": ["Key metrics dashboard", "GA4 events and conversions", "Initial optimization support"]
+        "name": "Automation and integrations",
+        "tag": "Less manual work",
+        "desc": "We connect tools and automate repetitive steps so the team can move with less friction.",
+        "features": ["Notifications and reminders", "Forms, email, and spreadsheet integrations", "Commercial follow-up flows"]
       },
       {
         "id": "04",
-        "name": "Scalable Business Web Platform",
-        "desc": "Web platform prepared to grow with robust backend processes and cloud services.",
-        "price": "custom quote",
-        "features": ["Enterprise full-stack architecture", "Database on Azure or AWS", "Security, roles, and CI/CD deployment"]
+        "name": "Analytics and optimization",
+        "tag": "Better decisions",
+        "desc": "Measurement and data reading to understand which channel, page, or process creates real opportunities.",
+        "features": ["Events and conversions", "Opportunity reports", "Improvement priorities"]
+      }
+    ]
+  },
+  "solutions": {
+    "eyebrow": "Use cases",
+    "title": "Solutions NexSystems can develop for your company",
+    "copy": "We start from real needs: capture, sell, book, serve, organize, and automate. Each solution is defined around your operation without promising finished products.",
+    "need_label": "Need",
+    "result_label": "Expected result",
+    "items": [
+      {
+        "id": "01",
+        "title": "Bookings and appointments",
+        "description": "Flows for businesses that need to schedule services, confirm time slots, and reduce manual coordination.",
+        "need": "Organize availability, requests, and confirmations.",
+        "result": "Fewer back-and-forth messages and a clearer agenda.",
+        "features": ["Booking form or portal", "Confirmations and reminders", "Panel to review requests"]
+      },
+      {
+        "id": "02",
+        "title": "Tickets and events",
+        "description": "Experiences to promote events, receive registrations, or sell access based on the commercial model.",
+        "need": "Centralize registration, event information, and follow-up.",
+        "result": "A more professional flow to capture attendees and manage demand.",
+        "features": ["Event landing page", "Registration or ticket request", "Attendee list"]
+      },
+      {
+        "id": "03",
+        "title": "Sales and clients",
+        "description": "Simple systems to receive opportunities, classify clients, and follow up without losing context.",
+        "need": "Know which opportunity arrived, its current status, and who should respond.",
+        "result": "More commercial order and fewer forgotten opportunities.",
+        "features": ["Lead capture", "Follow-up statuses", "Team notifications"]
+      },
+      {
+        "id": "04",
+        "title": "Academies and memberships",
+        "description": "Portals to organize information, access, payments, or communication with students and members.",
+        "need": "Manage community, content, or recurring requests.",
+        "result": "A more orderly experience for members and administrators.",
+        "features": ["User portal", "Enrollment management", "Automated communications"]
+      },
+      {
+        "id": "05",
+        "title": "Client portal",
+        "description": "Private spaces to share documents, progress, requests, or service information.",
+        "need": "Reduce scattered emails and give each client more visibility.",
+        "result": "More clarity in the relationship and less manual follow-up.",
+        "features": ["Secure access", "Request history", "Admin panel"]
+      },
+      {
+        "id": "06",
+        "title": "Automation",
+        "description": "Flows that connect tools, send alerts, and remove repetitive steps from the operation.",
+        "need": "Move information forward without relying on copy and paste.",
+        "result": "Faster, traceable processes that are easier to supervise.",
+        "features": ["Tool integrations", "Internal alerts", "Automated reports"]
       }
     ]
   },
   "showcase": {
     "eyebrow": "Completed work",
-    "title": "Projects we have already built",
-    "copy": "A selection of real work: commercial brands, digital catalogs, and internal systems built to operate better.",
+    "title": "Projects that show web, software, and digital operations capability",
+    "copy": "A selection of real work: commercial brands, digital catalogs, and internal systems built to operate with more clarity.",
     "summary_projects": "featured projects",
     "summary_live": "published sites",
     "summary_stack": "technical areas",
@@ -127,57 +182,85 @@
   },
   "why": {
     "eyebrow": "Why NexSystems",
-    "title": "Clearer execution, more direct collaboration, stronger business focus",
-    "copy": "We are in launch stage as a brand, but our operating logic is serious: commercial structure, technical quality, and direct execution for companies that need to look better and sell with more order.",
+    "title": "Direct execution to build useful solutions, not just attractive screens",
+    "copy": "We are in launch stage as a brand, but we work with business judgment, technical structure, and direct collaboration for companies that need to grow with more order.",
     "cards": [
-      {"title": "Direct collaboration", "desc": "You speak with the person defining structure, design, and implementation."},
-      {"title": "Commercial thinking", "desc": "We do not design just to look good. We design so your website helps you sell better."},
-      {"title": "Modern foundation", "desc": "We work with a current stack, strong performance, and architecture that is ready to grow."},
-      {"title": "Long-term thinking", "desc": "What we launch today leaves room for analytics, automation, and new sections tomorrow."}
+      {"title": "Direct collaboration", "desc": "You speak with the person defining structure, design, and development."},
+      {"title": "Commercial judgment", "desc": "Every decision should help capture, organize, or automate better."},
+      {"title": "Modern foundation", "desc": "We work with a current stack, strong performance, and architecture prepared to evolve."},
+      {"title": "Long-term thinking", "desc": "What we launch leaves room to add integrations, data, and new features."}
     ]
   },
   "process": {
     "eyebrow": "Process",
-    "title": "A clear process without unnecessary friction",
-    "subtitle": "We work through a simple sequence so the website moves forward with direction, focus, and well-grounded decisions.",
+    "title": "From business need to operating digital solution",
+    "subtitle": "We work through a clear sequence to understand the problem, prioritize what matters, and build without inventing unnecessary complexity.",
     "steps": [
-      {"title": "Discovery", "desc": "We understand the business, value proposition, objections, and the audience you actually want to reach."},
-      {"title": "Architecture", "desc": "We organize sections, copy, narrative, and CTAs so the experience has commercial intent."},
-      {"title": "Production", "desc": "We design and build a clean, fast interface that is mobile-ready from the start."},
-      {"title": "Launch", "desc": "We publish, configure tracking, and leave the base ready to iterate with real data."}
+      {"title": "Diagnosis", "desc": "We understand goals, current process, channels, constraints, and improvement opportunities."},
+      {"title": "Solution map", "desc": "We define scope, main flow, required data, integrations, and success criteria."},
+      {"title": "Design and prototype", "desc": "We organize the experience, messages, and key screens before development."},
+      {"title": "Development", "desc": "We build the website, system, or automation with focus on performance, clarity, and maintenance."},
+      {"title": "Launch and improve", "desc": "We publish, measure, adjust, and leave priorities for the next iteration."}
     ]
   },
   "lead": {
-    "eyebrow": "Initial audit",
-    "title": "Request a quick review of your current website",
-    "subtitle": "We send a short review with clear opportunities to improve your website.",
-    "benefits": ["Reply within 24 business hours", "Clear recommendations", "No commercial commitment"],
+    "eyebrow": "Initial diagnosis",
+    "title": "Tell us what you need to build or optimize",
+    "subtitle": "We will reply with an initial read on the opportunity, likely scope, and next steps.",
+    "benefits": ["Business-oriented review", "Clear priorities to decide", "No commercial commitment"],
     "name": "Name",
     "email": "Email",
-    "url": "Current website URL",
-    "submit": "Request audit",
+    "company": "Company",
+    "url": "Current URL (optional)",
+    "solution_type": "Solution type",
+    "solution_placeholder": "Select an option",
+    "solution_options": [
+      {"value": "booking_appointments", "label": "Bookings or appointments"},
+      {"value": "ticketing_events", "label": "Tickets or events"},
+      {"value": "sales_clients", "label": "Sales and clients"},
+      {"value": "academies_memberships", "label": "Academies or memberships"},
+      {"value": "client_portal", "label": "Client portal"},
+      {"value": "automation", "label": "Automation"},
+      {"value": "website_ecommerce", "label": "Strategic website or ecommerce"},
+      {"value": "custom_system", "label": "Custom system"},
+      {"value": "not_sure", "label": "I am not sure yet"}
+    ],
+    "message": "What do you need to solve",
+    "message_placeholder": "Tell us which process you want to organize, automate, or improve.",
+    "submit": "Request diagnosis",
     "sending": "Sending...",
     "success": "Done. We received your request and will contact you soon.",
     "error": "We could not submit the form. Please try again."
   },
   "ctaFinal": {
-    "title": "If your current website does not reflect the level of your company, we can rebuild it.",
-    "subtitle": "Clearer design, stronger presence, and easier contact.",
+    "title": "If your digital operation needs more than a website, we can help structure the next step.",
+    "subtitle": "Strategic web, custom software, and automation with business focus.",
     "wa": "WhatsApp",
-    "audit": "Free audit"
+    "audit": "Diagnosis"
   },
   "footer": {
     "eyebrow": "NexSystems",
-    "desc": "We design web experiences that help companies look stronger, communicate clearly, and generate better opportunities.",
-    "services": "Services",
+    "desc": "We develop strategic websites, custom software, and automation for companies that want to grow with more order.",
+    "links_title": "Navigation",
     "contact": "Contact",
     "legal": "All rights reserved.",
     "privacy": "Privacy",
-    "terms": "Terms"
+    "terms": "Terms",
+    "whatsapp": "WhatsApp",
+    "links": [
+      {"label": "Solutions", "href": "#solutions"},
+      {"label": "Process", "href": "#process"},
+      {"label": "Projects", "href": "#showcase"},
+      {"label": "Diagnosis", "href": "#leadmagnet"}
+    ]
   },
   "validation": {
     "name_min": "Name must have at least 2 characters.",
     "email_invalid": "Please enter a valid email.",
-    "url_invalid": "Please enter a valid URL (include https://)."
+    "company_min": "Company must have at least 2 characters.",
+    "url_invalid": "Please enter a valid URL (include https://).",
+    "solution_type_required": "Select the type of solution.",
+    "message_min": "Tell us a little more so we can understand the need.",
+    "message_max": "Message must be 1200 characters or less."
   }
 }

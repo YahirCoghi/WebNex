@@ -1,12 +1,23 @@
-﻿import Image from "next/image";
+import Image from "next/image";
 import Link from "next/link";
-import {getTranslations} from "next-intl/server";
+import {getLocale, getTranslations} from "next-intl/server";
 import {Label} from "../ui/Label";
+
+type FooterLink = {
+  label: string;
+  href: string;
+};
+
+function localizeAnchor(href: string, locale: string) {
+  if (!href.startsWith("#")) return href;
+  return `/${locale}${href}`;
+}
 
 export async function Footer() {
   const t = await getTranslations("footer");
-  const servicesT = await getTranslations("services");
-  const services = (servicesT.raw("items") as Array<{name: string}>).slice(0, 4);
+  const locale = (await getLocale()) === "en" ? "en" : "es";
+  const links = t.raw("links") as FooterLink[];
+  const waNumber = process.env.NEXT_PUBLIC_WA_NUMBER ?? "50600000000";
 
   return (
     <footer className="relative mt-20 overflow-hidden border-t border-[#dbe4f1] bg-[linear-gradient(180deg,rgba(255,255,255,0.82),rgba(244,248,253,0.95))]">
@@ -28,10 +39,14 @@ export async function Footer() {
         </div>
 
         <div>
-          <h4 className="text-xs font-semibold uppercase tracking-[0.24em] text-slate-900">{t("services")}</h4>
+          <h4 className="text-xs font-semibold uppercase tracking-[0.24em] text-slate-900">{t("links_title")}</h4>
           <ul className="mt-4 space-y-3 text-sm text-slate-600">
-            {services.map((service) => (
-              <li key={service.name}>{service.name}</li>
+            {links.map((item) => (
+              <li key={item.href}>
+                <Link className="transition hover:text-slate-950" href={localizeAnchor(item.href, locale)}>
+                  {item.label}
+                </Link>
+              </li>
             ))}
           </ul>
         </div>
@@ -45,11 +60,15 @@ export async function Footer() {
               </Link>
             </li>
             <li>
-              <Link className="transition hover:text-slate-950" href="tel:+50663904321">
-                +506 6390 4321
+              <Link
+                className="transition hover:text-slate-950"
+                href={`https://wa.me/${waNumber}`}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                {t("whatsapp")}
               </Link>
             </li>
-            <li>San Jose, Costa Rica</li>
             <li>
               <Link
                 className="transition hover:text-slate-950"
@@ -78,10 +97,10 @@ export async function Footer() {
         <div className="mx-auto flex w-full max-w-6xl flex-col gap-2 px-4 py-6 text-xs text-slate-500 sm:flex-row sm:items-center sm:justify-between sm:px-6">
           <p>Copyright {new Date().getFullYear()} NexSystems. {t("legal")}</p>
           <div className="flex gap-4">
-            <Link href="#" className="transition hover:text-slate-900">
+            <Link href={`/${locale}#leadmagnet`} className="transition hover:text-slate-900">
               {t("privacy")}
             </Link>
-            <Link href="#" className="transition hover:text-slate-900">
+            <Link href={`/${locale}#leadmagnet`} className="transition hover:text-slate-900">
               {t("terms")}
             </Link>
           </div>

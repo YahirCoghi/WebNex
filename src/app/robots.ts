@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://nexsystems.cr/sitemap.xml",
+    sitemap: "https://www.nexsystems.org/sitemap.xml",
   };
 }
